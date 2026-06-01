@@ -50,8 +50,8 @@ if (payload.errors) {
 }
 
 const user = payload.data.user;
-const mergedPrs = await searchCount(`type:pr author:${login} is:merged`);
-const openPrs = await searchCount(`type:pr author:${login} is:open`);
+const mergedPrs = await searchCount(`type:pr author:${login} is:merged is:public`);
+const openPrs = await searchCount(`type:pr author:${login} is:open is:public`);
 const updated = now.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 
 const block = `<!-- STATUS-GAME:START -->

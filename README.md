@@ -17,7 +17,7 @@ MERGED PRS       44
 OPEN PRS         14
 YEAR SIGNAL      1114 contributions
 LAST 7 DAYS      115 contributions
-UPDATED          2026-06-01 10:16 UTC
+UPDATED          2026-06-01 10:17 UTC
 ```
 <!-- STATUS-GAME:END -->
 
@@ -35,7 +35,7 @@ STANDARD     proof before performance
 
 | Signal | Proof |
 |---|---|
-| Merged into the wild | 51 merged pull requests authored from this account |
+| Merged into the wild | 44 merged pull requests visible to the public profile automation |
 | Security taste | Fixes across OSINT, network tooling, parsers, CLI behavior, and app hardening |
 | Operator discipline | Reproduce, patch, test, document, then leave a trail a maintainer can trust |
 | Builder range | Public products, automation systems, dashboards, and open-source repairs |
