@@ -15,8 +15,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     followers { totalCount }
     repositories(first: 1, privacy: PUBLIC) { totalCount }
-    pullRequests(states: MERGED) { totalCount }
-    openPullRequests: pullRequests(states: OPEN) { totalCount }
     contributionsCollection {
       contributionCalendar { totalContributions }
     }
@@ -52,6 +50,8 @@ if (payload.errors) {
 }
 
 const user = payload.data.user;
+const mergedPrs = await searchCount(`type:pr author:${login} is:merged`);
+const openPrs = await searchCount(`type:pr author:${login} is:open`);
 const updated = now.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 
 const block = `<!-- STATUS-GAME:START -->
@@ -59,8 +59,8 @@ const block = `<!-- STATUS-GAME:START -->
 PUBLIC RUN STATE
 FOLLOWERS        ${user.followers.totalCount}
 PUBLIC REPOS     ${user.repositories.totalCount}
-MERGED PRS       ${user.pullRequests.totalCount}
-OPEN PRS         ${user.openPullRequests.totalCount}
+MERGED PRS       ${mergedPrs}
+OPEN PRS         ${openPrs}
 YEAR SIGNAL      ${user.contributionsCollection.contributionCalendar.totalContributions} contributions
 LAST 7 DAYS      ${user.recent.contributionCalendar.totalContributions} contributions
 UPDATED          ${updated}
@@ -84,3 +84,25 @@ if (next === readme) {
 }
 
 await fs.writeFile(readmePath, next);
+
+async function searchCount(query) {
+  const url = new URL('https://api.github.com/search/issues');
+  url.searchParams.set('q', query);
+  url.searchParams.set('per_page', '1');
+
+  const searchResponse = await fetch(url, {
+    headers: {
+      authorization: `Bearer ${token}`,
+      accept: 'application/vnd.github+json',
+      'user-agent': 'juliosuas-readme-game',
+    },
+  });
+
+  if (!searchResponse.ok) {
+    console.error(`GitHub search failed: ${searchResponse.status} ${searchResponse.statusText}`);
+    process.exit(1);
+  }
+
+  const searchPayload = await searchResponse.json();
+  return searchPayload.total_count;
+}
