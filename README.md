@@ -17,9 +17,13 @@ MERGED PRS       44
 OPEN PRS         14
 YEAR SIGNAL      1115 contributions
 LAST 7 DAYS      116 contributions
-UPDATED          2026-06-01 10:18 UTC
+UPDATED          2026-06-01 10:20 UTC
 ```
 <!-- STATUS-GAME:END -->
+
+<sub>
+Audit trail: [`type:pr author:juliosuas is:merged is:public`](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
+</sub>
 
 ## Current Build
 
@@ -35,9 +39,9 @@ STANDARD     proof before performance
 
 | Signal | Proof |
 |---|---|
-| Merged into the wild | 44 merged pull requests visible to the public profile automation |
+| Merged into the wild | Public merged pull requests returned by the same GitHub search query used by the profile automation |
 | Security taste | Fixes across OSINT, network tooling, parsers, CLI behavior, and app hardening |
-| Operator discipline | Reproduce, patch, test, document, then leave a trail a maintainer can trust |
+| Operator discipline | Reproduce, patch, test, document, then leave a trail a maintainer can review |
 | Builder range | Public products, automation systems, dashboards, and open-source repairs |
 
 > Respect is not a badge. It is what remains after the diff survives review.
