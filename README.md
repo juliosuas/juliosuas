@@ -1,30 +1,89 @@
-# Hey, I'm Julio 👋
+<p align="center">
+  <img src="./assets/operator-card.svg" alt="Julio C operator card: commits are activity, merges are respect" width="100%">
+</p>
 
-**Cybersecurity Researcher | Entrepreneur | OSINT Specialist**
+# Julio C
 
-I've been in the security space since before it was cool — started breaking things at age 3 with Windows 98, moved through WEP cracking, SMB exploits, and eventually built a career around making digital systems harder to compromise.
+I build software like a field operator: reproduce the issue, cut the noise, ship the fix, leave proof.
 
-After years of working behind the scenes on private security tooling and consulting, I'm finally bringing my work to the open-source community. Better late than never.
+Commits are activity. Merges are respect.
 
-## What I'm working on
+<!-- STATUS-GAME:START -->
+```text
+PUBLIC RUN STATE
+FOLLOWERS        87
+PUBLIC REPOS     62
+MERGED PRS       51
+OPEN PRS         14
+YEAR SIGNAL      1112 contributions
+LAST 7 DAYS      113 contributions
+UPDATED          2026-06-01 10:14 UTC
+```
+<!-- STATUS-GAME:END -->
 
-- 🔍 Contributing to major OSINT frameworks ([sherlock](https://github.com/sherlock-project/sherlock), [maigret](https://github.com/soxoj/maigret))
-- 🛡️ Building offensive security tools for the next generation of ethical hackers
-- 🚀 Leading [Antigravity](https://github.com/juliosuas) — shipping MVPs at startup speed
-- 🏗️ Exploring the intersection of AI and cybersecurity
+## Current Build
 
-## Philosophy
+```text
+CLASS        Founder / security-minded builder
+LOADOUT      Python, TypeScript, OSINT, automation, deploy gates
+MODE         useful systems, small diffs, real verification
+QUEST        turn public work into developer credibility
+STANDARD     proof before performance
+```
 
-> Build tools that make the world more transparent, not more vulnerable.
+## Reputation Ledger
 
-I believe in ethical hacking, responsible disclosure, and open-source as the backbone of real security. The best security researchers share what they find — obscurity is not protection.
+| Signal | Proof |
+|---|---|
+| Merged into the wild | 51 merged pull requests authored from this account |
+| Security taste | Fixes across OSINT, network tooling, parsers, CLI behavior, and app hardening |
+| Operator discipline | Reproduce, patch, test, document, then leave a trail a maintainer can trust |
+| Builder range | Public products, automation systems, dashboards, and open-source repairs |
+
+> Respect is not a badge. It is what remains after the diff survives review.
+
+## Merge Receipts
+
+- `ghost` - [#9 Calibrate username platform claims](https://github.com/juliosuas/ghost/pull/9)
+- `ghost` - [#8 Refresh CI lint coverage](https://github.com/juliosuas/ghost/pull/8)
+- `sentry-python` - [#6241 Add option to drop scrubbed user IP addresses](https://github.com/getsentry/sentry-python/pull/6241)
+- `responses` - [#791 Remove content-type from headers in file playback](https://github.com/getsentry/responses/pull/791)
+- `mitmproxy` - [#8196 Avoid IndexError in binary tail detection](https://github.com/mitmproxy/mitmproxy/pull/8196)
+- `maigret` - [#2588 Disable broken RomanticCollection check](https://github.com/soxoj/maigret/pull/2588)
+- `jc` - [#692 Fix hex prefix handling in ifconfig parser](https://github.com/kellyjonbrazil/jc/pull/692)
+
+## Active Quest Log
+
+- [x] Ship fixes that survive upstream review
+- [x] Build public tools with visible execution trails
+- [ ] Push active OSS PRs through review without noise
+- [ ] Convert the GitHub graph into durable reputation
+- [ ] Keep every public claim backed by a link
+
+## Public Arsenal
+
+- [Ghost](https://github.com/juliosuas/ghost) - username intelligence workflow and platform-claim calibration.
+- [AI Garden](https://github.com/juliosuas/ai-garden) - agent-driven interactive experiment; systems that visibly evolve.
+- [Copyfail Guard](https://github.com/juliosuas/copyfail-guard) - small shell utility for safer operator workflows.
+- [Jeffrey OS Dashboard](https://github.com/juliosuas/jeffrey-os-dashboard) - command surface for personal automation.
+
+## Operating Code
+
+```text
+1. Useful beats loud.
+2. A small clean patch has more leverage than a theatrical rewrite.
+3. If the claim cannot be verified, it does not go on the profile.
+4. Build fast, but leave evidence.
+```
 
 ## Connect
 
-- 🌐 Based in Mexico City
-- 💼 Open to collaboration on cybersecurity, OSINT, and AI projects
-- 📫 Reach me through issues or PRs — I review everything
+- Based in Mexico City.
+- Open to collaboration on cybersecurity, OSINT, automation, and AI-assisted product systems.
+- Best way to start: open an issue, review a PR, or point me at a real problem.
 
 ---
 
-*"The ones who are crazy enough to think they can change the world are the ones who do."*
+<sub>
+This profile has a small game loop: the status block is refreshed by GitHub Actions from public GitHub signals.
+</sub>
