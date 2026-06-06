@@ -1,23 +1,23 @@
 <p align="center">
-  <img src="./assets/operator-card.svg" alt="Julio Suastegui public activity terminal" width="100%">
+  <img src="./assets/operator-card.svg" alt="Julio Suastegui GitHub profile terminal with Asuka, Akari and Madoka ASCII" width="100%">
 </p>
 
 ```text
-> boot eva/profile --pilot=juliosuas
-> scan public_activity --mode=brag
-> load waifu_ascii --asuka --akari --madona
-> init wired_operator_board --no-secrets --receipts-only
+> boot github/profile --handle=juliosuas
+> load waifu_ascii --asuka --akari --madoka
+> mount public_receipts --commits --prs --repos --screenshots
+> render terminal_board --style=/g/ --no-secrets --ship-or-log-out
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=600&color=F2F2F2&center=true&vCenter=true&width=920&lines=juliosuas%40wired%3A~%24+ship+fixes+that+survive+review;commits+are+activity+%2F+merges+are+respect;mission-control+%2F+gbrain+%2F+agents-office+online;public+brag+board+uses+receipts%2C+not+vibes" alt="terminal typing animation">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=600&color=7CFF9B&center=true&vCenter=true&width=980&lines=juliosuas%40github%3A~%24+cat+public_receipts.log;Asuka.sys+%2F+Akari.log+%2F+Madoka.exe+present+the+profile;commits+are+proof%2C+merged+PRs+are+receipts;Mission+Control+%2F+GBrain+%2F+agents-office+energy" alt="terminal typing animation">
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=juliosuas&label=profile+hits&color=111111&style=flat-square" alt="profile views">
-  <img src="https://img.shields.io/badge/mode-wired%20operator-f2f2f2?style=flat-square&labelColor=111111" alt="wired operator">
-  <img src="https://img.shields.io/badge/rule-no%20raw%20secrets-f2f2f2?style=flat-square&labelColor=111111" alt="no raw secrets">
-  <img src="https://img.shields.io/badge/status-shipping-f2f2f2?style=flat-square&labelColor=111111" alt="shipping">
+  <img src="https://img.shields.io/badge/terminal-waifu_ascii-7cff9b?style=flat-square&labelColor=111111" alt="waifu ascii">
+  <img src="https://img.shields.io/badge/receipts-public_commits-7cff9b?style=flat-square&labelColor=111111" alt="public commits">
+  <img src="https://img.shields.io/badge/rule-no_raw_secrets-7cff9b?style=flat-square&labelColor=111111" alt="no raw secrets">
 </p>
 
 <!-- STATUS-GAME:START -->
@@ -27,9 +27,9 @@ FOLLOWERS        94
 PUBLIC REPOS     63
 MERGED PRS       45
 OPEN PRS         14
-YEAR SIGNAL      1201 contributions
-LAST 7 DAYS      130 contributions
-UPDATED          2026-06-06 06:40 UTC
+YEAR SIGNAL      1220 contributions
+LAST 7 DAYS      149 contributions
+UPDATED          2026-06-06 06:47 UTC
 ```
 <!-- STATUS-GAME:END -->
 
@@ -37,78 +37,121 @@ UPDATED          2026-06-06 06:40 UTC
 Audit trail: [`type:pr author:juliosuas is:merged is:public`](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
 </sub>
 
-## Terminal Board
+## `terminal / profile`
 
 ```text
-                          [ COMMIT FEED ]
+ASUKA.SYS>  Julio, stop lurking. Show the graph.
+AKARI.LOG>  Public repos mounted. Soft chaos, hard receipts.
+MADOKA.EXE> Contract accepted: every flex needs a link.
 
-        /\_/\             push   -> rocio
-       ( o.o )            merge  -> sentry-python / responses / mitmproxy
-        > ^ <             review -> agents-office
-
-    ASUKA.SYS             AKARI.LOG             MADONA.EXE
-   /| redline |\         ( uptime )            < public glam >
-  /_|  loud  |_\       [ soft chaos ]          [ commit glow ]
-    |__ops__|          / local-first \          / vogue mode \
-
-status: shipping while the dashboard screams
-signal: red, loud, useful
-proof : public commits, merged PRs, live actions receipts
+operator   : Julio Suastegui
+handle     : juliosuas
+runtime    : GitHub + OpenClaw + agents + dashboards
+current    : Mission Control / GBrain / Knowledge / public repo receipts
+rule       : no vault dumps, no raw secrets, no fake stats
 ```
 
 <table>
 <tr>
-<td width="50%">
-
-### LIVE
+<td width="33%">
 
 ```text
-GITHUB ACTIONS RECEIPTS
-followers / repos / prs
-refreshed every 6h
+    ASUKA.SYS
+     /\_/\
+    ( o_o )
+    /| R |\
+   /_|___|_\
+
+redline commits
+upstream PRs
+ship-or-log-out
 ```
 
 </td>
-<td width="50%">
-
-### PRS
+<td width="33%">
 
 ```text
-MERGED, REVIEWED, SHIPPED
-upstream fixes > empty flex
-public search backs the count
+    AKARI.LOG
+    .-"""-.
+   /  o o  \
+  |    ^    |
+   \  ---  /
+
+soft chaos
+public graph
+repo glow
 ```
 
 </td>
-</tr>
-<tr>
-<td width="50%">
-
-### COMMITS
+<td width="33%">
 
 ```text
-PUBLIC GRAPH WIRED IN
-contribution signal visible
-green boxes are receipts
-```
+    MADOKA.EXE
+      /|\
+     /_|_\
+    ( '_' )
+    /|___|\
 
-</td>
-<td width="50%">
-
-### AGENTS
-
-```text
-LUDWIG / JEFFREY / OFFICE
-mission-control
-gbrain
-knowledge
+pink terminal
+actions refresh
+no fake claims
 ```
 
 </td>
 </tr>
 </table>
 
-## Merge Receipts
+## `stats / graphic mode`
+
+<p align="center">
+  <img src="./assets/stats-dashboard.svg" alt="Visual GitHub stats dashboard with pie chart, repo bars and repo highlights" width="100%">
+</p>
+
+<p align="center">
+  <img height="172" src="https://github-readme-stats.vercel.app/api?username=juliosuas&show_icons=true&include_all_commits=true&count_private=false&rank_icon=github&hide_border=true&bg_color=0b0d12&title_color=7cff9b&icon_color=ff6b6b&text_color=dfe6f3" alt="GitHub stats">
+  <img height="172" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juliosuas&layout=pie&hide_border=true&bg_color=0b0d12&title_color=7cff9b&text_color=dfe6f3" alt="Top languages pie chart">
+</p>
+
+<p align="center">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=juliosuas&theme=github-compact&bg_color=0b0d12&color=dfe6f3&line=7cff9b&point=ff6b6b&area=true&hide_border=true" alt="Contribution activity graph">
+</p>
+
+## `important repo signal`
+
+- `ghost` - username intelligence and platform claim calibration. [Repo](https://github.com/juliosuas/ghost)
+- `rocio` - visual flower workflow, local-first product surface. [Repo](https://github.com/juliosuas/rocio)
+- `ai-garden` - agent-driven interactive experiment. [Repo](https://github.com/juliosuas/ai-garden)
+- `sentry-python` - upstream privacy/scrubbing contribution. [PR #6241](https://github.com/getsentry/sentry-python/pull/6241)
+- `responses` - upstream playback/header fix. [PR #791](https://github.com/getsentry/responses/pull/791)
+- `mitmproxy` - upstream binary tail detection fix. [PR #8196](https://github.com/mitmproxy/mitmproxy/pull/8196)
+
+## `best repos / screenshots`
+
+<p align="center">
+  <a href="https://github.com/juliosuas/ghost">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-ghost/juliosuas/ghost" alt="Ghost repository preview">
+  </a>
+  <a href="https://github.com/juliosuas/rocio">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-rocio/juliosuas/rocio" alt="Rocio repository preview">
+  </a>
+  <a href="https://github.com/juliosuas/ai-garden">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-ai-garden/juliosuas/ai-garden" alt="AI Garden repository preview">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/juliosuas/gstack">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-gstack/juliosuas/gstack" alt="GStack repository preview">
+  </a>
+  <a href="https://github.com/juliosuas/copyfail-guard">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-copyfail/juliosuas/copyfail-guard" alt="Copyfail Guard repository preview">
+  </a>
+  <a href="https://github.com/juliosuas/jeffrey-os-dashboard">
+    <img width="31%" src="https://opengraph.githubassets.com/juliosuas-profile-jeffrey/juliosuas/jeffrey-os-dashboard" alt="Jeffrey OS Dashboard repository preview">
+  </a>
+</p>
+
+## `merge receipts`
 
 - `ghost` - [#9 Calibrate username platform claims](https://github.com/juliosuas/ghost/pull/9)
 - `ghost` - [#8 Refresh CI lint coverage](https://github.com/juliosuas/ghost/pull/8)
@@ -118,41 +161,22 @@ knowledge
 - `maigret` - [#2588 Disable broken RomanticCollection check](https://github.com/soxoj/maigret/pull/2588)
 - `jc` - [#692 Fix hex prefix handling in ifconfig parser](https://github.com/kellyjonbrazil/jc/pull/692)
 
-## Stack / Tags
-
-<p>
-  <img src="https://img.shields.io/badge/mission--control-111111?style=for-the-badge" alt="mission control">
-  <img src="https://img.shields.io/badge/gbrain-111111?style=for-the-badge" alt="gbrain">
-  <img src="https://img.shields.io/badge/react-111111?style=for-the-badge&logo=react" alt="react">
-  <img src="https://img.shields.io/badge/typescript-111111?style=for-the-badge&logo=typescript" alt="typescript">
-  <img src="https://img.shields.io/badge/python-111111?style=for-the-badge&logo=python" alt="python">
-  <img src="https://img.shields.io/badge/ops-111111?style=for-the-badge" alt="ops">
-</p>
-
 <details>
-<summary><code>open /x/ transmission</code></summary>
+<summary><code>open /g/ transmission</code></summary>
 
 ```text
-Best for: aggressive hacker flex.
-Feels like a terminal screenshot from a forum thread,
-but the numbers are tied to public GitHub signals.
+This is not a portfolio template.
+It is a public terminal surface.
 
-No raw vault.
-No private logs.
-No fake claims.
-Just public receipts and weird operator energy.
+The waifu ASCII is aesthetic.
+The stats are live.
+The repo screenshots are links.
+The claims are tied to public receipts.
 ```
 
 </details>
 
-## Public Arsenal
-
-- [Ghost](https://github.com/juliosuas/ghost) - username intelligence workflow and platform-claim calibration.
-- [AI Garden](https://github.com/juliosuas/ai-garden) - agent-driven interactive experiment; systems that visibly evolve.
-- [Copyfail Guard](https://github.com/juliosuas/copyfail-guard) - small shell utility for safer operator workflows.
-- [Jeffrey OS Dashboard](https://github.com/juliosuas/jeffrey-os-dashboard) - command surface for personal automation.
-
 ```text
 > logout
-session saved: public_profile/brag_board
+session saved: public_profile/terminal_waifu_receipts
 ```
