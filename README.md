@@ -1,12 +1,23 @@
 <p align="center">
-  <img src="./assets/operator-card.svg" alt="juliosuas green terminal profile with Asuka, Madoka and Akari ASCII operators" width="100%">
+  <img src="./assets/operator-card.svg" alt="green terminal profile for juliosuas" width="100%">
 </p>
 
-```ansi
-juliosuas@github:~$ ./profile --mode=public --theme=green-terminal
-loading: github receipts, shipped tools, upstream patches
-sidecar: asuka.log  madoka.sys  akari.txt
-status: cute terminal online
+```text
+Last login: Sat Jun  6 02:46:00 on ttys015
+
+juliosuas@github ~ % whoami
+Julio Cesar Suastegui
+
+juliosuas@github ~ % finger julio
+Login: juliosuas                         Name: Julio Cesar Suastegui
+Directory: /Users/julio                  Shell: /bin/zsh
+Project: founder mode, security research, automation, shipped tools
+Where: Mexico City / GitHub / terminal
+Plan:
+  reproduce the bug
+  cut the noise
+  ship the fix
+  leave proof
 ```
 
 <!-- STATUS-GAME:START -->
@@ -18,88 +29,58 @@ MERGED PRS       45
 OPEN PRS         14
 YEAR SIGNAL      1232 contributions
 LAST 7 DAYS      161 contributions
-UPDATED          2026-06-06 08:46 UTC
+UPDATED          2026-06-06 08:48 UTC
 ```
 <!-- STATUS-GAME:END -->
 
-<sub>
-Receipts: [`type:pr author:juliosuas is:merged is:public`](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
-</sub>
-
-## terminal
-
 ```text
-$ whoami
-Julio C / founder / security-minded builder
+juliosuas@github ~ % ls -1 ~/work
+ghost
+rocio
+ai-garden
+copyfail-guard
+jeffrey-os-dashboard
 
-$ cat operating-code.txt
-reproduce the bug
-cut the noise
-ship the fix
-leave proof
+juliosuas@github ~ % cat ~/.receipts
+getsentry/sentry-python   #6241  drop scrubbed user IP addresses
+getsentry/responses       #791   remove content-type from file playback
+mitmproxy/mitmproxy       #8196  avoid binary tail detection crash
+soxoj/maigret             #2588  disable broken platform check
+kellyjonbrazil/jc         #692   fix ifconfig hex prefix handling
 
-$ ls stack/
-python  typescript  osint  automation  agents  dashboards  deploys
-```
-
-<details open>
-<summary><code>./characters --ascii --cute</code></summary>
-
-```text
+juliosuas@github ~ % cat ~/ascii/asuka.log ~/ascii/madoka.sys ~/ascii/akari.txt
 asuka.log
-  //\\
- ( o>)  sync ratio: rude but useful
- /|__   mode: push forward
-  / \
+     .-.
+    /   \__
+   |  >  < )
+   |   ^  /      "move."
+  /|  _.-'
+ /_|_|
 
 madoka.sys
-  /\_/\
- ( . .)  contract: hope, but instrumented
-  > ^ <  mode: protect the run
+    /\_/\
+   ( . . )
+    > ^ <       "keep it kind. keep it exact."
+   /|___|\
 
 akari.txt
-  .-.
- (o o)  presence: quiet, bright, impossible to miss
-  |=|   mode: cute uptime
-```
+    .-.
+   (o o)
+    |=|         "quiet signal, still here."
+   /   \
 
-</details>
+juliosuas@github ~ % logout
+Connection to github closed.
+```
 
 <details>
-<summary><code>cat public-work.log</code></summary>
-
-```text
-ghost              username intelligence + platform claim calibration
-rocio              local-first visual flower workflow
-ai-garden          agent-driven interactive experiment
-copyfail-guard     shell utility for safer operator workflows
-jeffrey-dashboard  command surface for personal automation
-```
+<summary><code>open links</code></summary>
 
 - [ghost](https://github.com/juliosuas/ghost)
 - [rocio](https://github.com/juliosuas/rocio)
 - [ai-garden](https://github.com/juliosuas/ai-garden)
 - [copyfail-guard](https://github.com/juliosuas/copyfail-guard)
 - [jeffrey-os-dashboard](https://github.com/juliosuas/jeffrey-os-dashboard)
+- [merged public PRs](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
 
 </details>
-
-<details>
-<summary><code>cat merge-receipts.log</code></summary>
-
-```text
-getsentry/sentry-python   #6241  drop scrubbed user IP addresses
-getsentry/responses       #791   remove content-type from file playback
-mitmproxy/mitmproxy       #8196  avoid binary tail detection crash
-soxoj/maigret             #2588  disable broken platform check
-kellyjonbrazil/jc         #692   fix ifconfig hex prefix handling
-juliosuas/ghost           #9     calibrate username platform claims
-juliosuas/ghost           #8     refresh CI lint coverage
-```
-
-</details>
-
-```text
-juliosuas@github:~$ logout
-saved: profile terminal, public only, no raw secrets
-```

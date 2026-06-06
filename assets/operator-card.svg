@@ -1,46 +1,46 @@
-<svg width="980" height="780" viewBox="0 0 980 780" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">juliosuas green terminal profile</title>
-  <desc id="desc">A green terminal style profile banner with ASCII operators inspired by Asuka, Madoka and Akari.</desc>
-  <rect width="980" height="780" fill="#020402"/>
-  <rect x="24" y="24" width="932" height="732" fill="#050805" stroke="#1c4b24" stroke-width="2"/>
-  <rect x="46" y="48" width="888" height="684" fill="#061006" stroke="#2a6a34" stroke-width="1"/>
-  <path d="M46 88H934" stroke="#16351c"/>
-  <circle cx="76" cy="68" r="7" fill="#5df26e"/>
-  <circle cx="101" cy="68" r="7" fill="#3e9b49"/>
-  <circle cx="126" cy="68" r="7" fill="#1b4b23"/>
-  <text x="154" y="74" fill="#7cff8e" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">juliosuas@github:~</text>
+<svg width="1214" height="798" viewBox="0 0 1214 798" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">juliosuas terminal profile</title>
+  <desc id="desc">A black terminal screen with green monospace text, Julio's profile data, and small ASCII files.</desc>
+  <rect width="1214" height="798" fill="#000"/>
+  <defs>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" filter="url(#soft-glow)">
+    <text x="0" y="27" fill="#43e643">Last login: Sat Jun  6 02:46:00 on ttys015</text>
 
-  <text x="74" y="126" fill="#7cff8e" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$ ./profile --public --receipts-only --green-terminal</text>
-  <text x="74" y="190" fill="#c8ffd0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="54" font-weight="700">JULIO C</text>
-  <text x="76" y="230" fill="#7cff8e" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="22">founder / security-minded builder / operator</text>
-  <text x="76" y="270" fill="#d9ffe0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="23">reproduce bug - ship fix - leave proof</text>
+    <text x="0" y="88" fill="#43e643">wake up, Julio...</text>
+    <text x="144" y="124" fill="#43e643">the terminal has receipts</text>
+    <text x="108" y="160" fill="#43e643">follow the green prompt.</text>
 
-  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
-    <text x="76" y="330" fill="#7cff8e">$ cat operators/sidecar.txt</text>
-    <rect x="76" y="354" width="260" height="168" fill="#030603" stroke="#1f5628"/>
-    <text x="96" y="388" fill="#d9ffe0">asuka.log</text>
-    <text x="96" y="416" fill="#7cff8e">  //\\</text>
-    <text x="96" y="444" fill="#7cff8e"> ( o&gt;)  forward</text>
-    <text x="96" y="472" fill="#7cff8e"> /|__   signal</text>
-    <text x="96" y="500" fill="#7cff8e">  / \</text>
+    <text x="0" y="234" fill="#43e643">juliosuas@github ~ % whoami</text>
+    <text x="0" y="272" fill="#43e643">Julio Cesar Suastegui</text>
 
-    <rect x="360" y="354" width="260" height="168" fill="#030603" stroke="#1f5628"/>
-    <text x="380" y="388" fill="#d9ffe0">madoka.sys</text>
-    <text x="380" y="416" fill="#7cff8e">  /\_/\</text>
-    <text x="380" y="444" fill="#7cff8e"> ( . .) hope</text>
-    <text x="380" y="472" fill="#7cff8e">  &gt; ^ &lt; guard</text>
+    <text x="0" y="344" fill="#43e643">juliosuas@github ~ % finger julio</text>
+    <text x="0" y="382" fill="#43e643">Login: juliosuas        Name: Julio Cesar Suastegui</text>
+    <text x="0" y="420" fill="#43e643">Project: founder / security research / automation</text>
+    <text x="0" y="458" fill="#43e643">Where: Mexico City      Shell: /bin/zsh</text>
 
-    <rect x="76" y="546" width="260" height="128" fill="#030603" stroke="#1f5628"/>
-    <text x="96" y="580" fill="#d9ffe0">akari.txt</text>
-    <text x="96" y="608" fill="#7cff8e">  .-.</text>
-    <text x="96" y="636" fill="#7cff8e"> (o o) uptime</text>
-    <text x="96" y="664" fill="#7cff8e">  |=|  cute</text>
-  </g>
+    <text x="0" y="532" fill="#43e643">juliosuas@github ~ % cat ~/ascii/asuka.log</text>
+    <text x="342" y="574" fill="#43e643">.-.</text>
+    <text x="324" y="612" fill="#43e643">/   \__</text>
+    <text x="306" y="650" fill="#43e643">|  &gt;  &lt; )   asuka.log</text>
+    <text x="306" y="688" fill="#43e643">|   ^  /    move.</text>
+    <text x="288" y="726" fill="#43e643">/|  _.-'</text>
+    <text x="270" y="764" fill="#43e643">/_|_|</text>
 
-  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
-    <text x="360" y="590" fill="#7cff8e">$ status</text>
-    <text x="464" y="590" fill="#d9ffe0">merged PRs are receipts</text>
-    <text x="360" y="626" fill="#7cff8e">$ rule</text>
-    <text x="464" y="626" fill="#d9ffe0">secrets stay off profile</text>
+    <text x="650" y="532" fill="#43e643">% cat madoka.sys</text>
+    <text x="714" y="574" fill="#43e643">/\_/\</text>
+    <text x="696" y="612" fill="#43e643">( . . ) madoka.sys</text>
+    <text x="714" y="650" fill="#43e643">&gt; ^ &lt;  exact hope</text>
+
+    <text x="650" y="706" fill="#43e643">% cat akari.txt</text>
+    <text x="760" y="744" fill="#43e643">.-.</text>
+    <text x="742" y="782" fill="#43e643">(o o) akari.txt</text>
   </g>
 </svg>
