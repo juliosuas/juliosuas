@@ -5,26 +5,26 @@
 ```text
 Last login: Sat Jun  6 02:54:00 on ttys017
 
-wake up, Julio...
-              the matrix has you
-          follow the white rabbit.
+wake up, julio...
+the matrix has you.
+follow the white rabbit.
 
-                    knock, knock, Julio.
+knock, knock, julio.
 
-                         (`.        ,-,
-                          `.`.    ,','
-                            `.`\ ,','
-                              `. X ,'
-                    .-;--''--.._` `(
-                  .'            /   `
-                 ,           ` '   Q '
-                 ,         ,   `._    \
-              ,.|         '     `-.;_'
-              :  . `  ;    `  ` --,.._;
-               ' `    ,   )   .'
-                  `._ ,  '   /_
-                    ; ,''-,;' ``-
-                     ``-..__\\
+ (`.        ,-,
+  ` `.    ,;' /
+    `.  ,'/ .'
+      `. X /.'
+ .-;--''--.._` `(
+.'            /   `
+,        ` '   Q '
+,       ,   `._    \
+,.|      '     `-.;_'
+:  . `  ;   `  ` --,.._;
+ ' `    ,   )   .'
+   `._ ,  '   /_
+      ; ,''-,;' ``-
+      ``-..__``--`
 
 ~ > whoami
 Julio Cesar Suastegui Calderon
@@ -33,14 +33,7 @@ Julio Cesar Suastegui Calderon
 Login: juliosuas                         Name: Julio Cesar Suastegui Calderon
 Directory: /Users/julio                  Shell: /bin/zsh
 Where: Mexico City                       Host: github.com/juliosuas
-Mode: founder / security research / automation / shipped tools
-
-~ > ls -1 ~/work
-ghost
-rocio
-ai-garden
-copyfail-guard
-jeffrey-os-dashboard
+Mode: builds security and automation tools that ship
 
 ~ > cat ~/.receipts
 getsentry/sentry-python   #6241  drop scrubbed user IP addresses
@@ -52,19 +45,22 @@ kellyjonbrazil/jc         #692   fix ifconfig hex prefix handling
 
 <!-- STATUS-GAME:START -->
 ```text
-PUBLIC RUN STATE
-FOLLOWERS        95
-PUBLIC REPOS     63
+PUBLIC RECEIPTS
 MERGED PRS       45
-OPEN PRS         14
-YEAR SIGNAL      1233 contributions
-LAST 7 DAYS      162 contributions
-UPDATED          2026-06-06 08:57 UTC
+UPSTREAMS        sentry-python / responses / mitmproxy / maigret / jc
+UPDATED          2026-06-06 09:10 UTC
 ```
 <!-- STATUS-GAME:END -->
 
 ```text
 ~ > open ~/links
+ghost                  agentic security experiments
+rocio                  operational automation
+ai-garden              AI agent lab
+copyfail-guard         copy-paste and AI slop detection
+jeffrey-os-dashboard   personal operations dashboard
+
+~ > open ~/src
 ghost                  https://github.com/juliosuas/ghost
 rocio                  https://github.com/juliosuas/rocio
 ai-garden              https://github.com/juliosuas/ai-garden

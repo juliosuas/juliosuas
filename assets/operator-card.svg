@@ -1,6 +1,6 @@
 <svg width="1455" height="911" viewBox="0 0 1455 911" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">juliosuas terminal profile</title>
-  <desc id="desc">A black macOS style terminal with green text, Julio's profile data, and a white rabbit ASCII drawing.</desc>
+  <desc id="desc">A black macOS style terminal with green Matrix text, Julio's profile data, and a white rabbit ASCII drawing.</desc>
   <rect x="1" y="1" width="1453" height="909" rx="10" fill="#020402" stroke="#333"/>
   <rect x="1" y="1" width="1453" height="47" rx="10" fill="#292929"/>
   <rect x="1" y="39" width="1453" height="9" fill="#292929"/>
@@ -32,43 +32,43 @@
     <rect x="2" y="662" width="1451" height="28" fill="url(#scan)"/>
     <rect x="2" y="776" width="1451" height="28" fill="url(#scan)"/>
   </g>
-  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="25" font-weight="700" filter="url(#soft-glow)" fill="#43e643">
+  <g xml:space="preserve" style="white-space: pre" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="25" font-weight="700" filter="url(#soft-glow)" fill="#43e643">
     <text x="3" y="78">Last login: Sat Jun  6 02:54:00 on ttys017</text>
 
-    <text x="3" y="151">wake up, Julio...</text>
-    <text x="147" y="188">the matrix has you</text>
-    <text x="111" y="224">follow the white rabbit.</text>
+    <text x="3" y="151">wake up, julio...</text>
+    <text x="3" y="188">the matrix has you.</text>
+    <text x="3" y="224">follow the white rabbit.</text>
 
-    <text x="184" y="295">knock, knock, Julio.</text>
+    <text x="3" y="295">knock, knock, julio.</text>
 
-    <text x="434" y="367">(`.        ,-,</text>
-    <text x="434" y="404"> `.`.    ,','</text>
-    <text x="434" y="441">   `.`\ ,','</text>
-    <text x="434" y="478">     `. X ,'</text>
-    <text x="292" y="515">.-;--''--.._` `(</text>
-    <text x="259" y="552">.'            /   `</text>
-    <text x="237" y="589">,           ` '   Q '</text>
-    <text x="237" y="626">,         ,   `._    \</text>
-    <text x="214" y="663">,.|         '     `-.;_'</text>
-    <text x="214" y="700">:  . `  ;    `  ` --,.._;</text>
-    <text x="236" y="737">' `    ,   )   .'</text>
-    <text x="279" y="774">`._ ,  '   /_</text>
-    <text x="300" y="811">; ,''-,;' ``-</text>
-    <text x="321" y="848">``-..__\\</text>
+    <text x="3" y="367"> (`.        ,-,</text>
+    <text x="3" y="404">  ` `.    ,;' /</text>
+    <text x="3" y="441">    `.  ,'/ .'</text>
+    <text x="3" y="478">      `. X /.'</text>
+    <text x="3" y="515"> .-;--''--.._` `(</text>
+    <text x="3" y="552">.'            /   `</text>
+    <text x="3" y="589">,        ` '   Q '</text>
+    <text x="3" y="626">,       ,   `._    \</text>
+    <text x="3" y="663">,.|      '     `-.;_'</text>
+    <text x="3" y="700">:  . `  ;   `  ` --,.._;</text>
+    <text x="3" y="737"> ' `    ,   )   .'</text>
+    <text x="3" y="774">   `._ ,  '   /_</text>
+    <text x="3" y="811">      ; ,''-,;' ``-</text>
+    <text x="3" y="848">      ``-..__``--`</text>
 
-    <text x="880" y="367">~ &gt; whoami</text>
-    <text x="880" y="404">Julio Cesar Suastegui</text>
+    <text x="760" y="367">~ &gt; whoami</text>
+    <text x="760" y="404">Julio Cesar Suastegui Calderon</text>
 
-    <text x="880" y="478">~ &gt; finger julio</text>
-    <text x="880" y="515">Login: juliosuas</text>
-    <text x="880" y="552">Shell: /bin/zsh</text>
-    <text x="880" y="589">Where: Mexico City</text>
-    <text x="880" y="626">Mode: founder / security</text>
-    <text x="880" y="663">Stack: automation / tools</text>
+    <text x="760" y="478">~ &gt; finger julio</text>
+    <text x="760" y="515">Login: juliosuas</text>
+    <text x="760" y="552">Shell: /bin/zsh</text>
+    <text x="760" y="589">Where: Mexico City</text>
+    <text x="760" y="626">Mode: builds security and</text>
+    <text x="760" y="663">automation tools that ship</text>
 
-    <text x="880" y="737">~ &gt; ls ~/work</text>
-    <text x="880" y="774">ghost  rocio  ai-garden</text>
-    <text x="880" y="811">copyfail-guard</text>
-    <text x="880" y="848">jeffrey-os-dashboard</text>
+    <text x="760" y="737">~ &gt; cat ~/.receipts</text>
+    <text x="760" y="774">sentry-python  responses</text>
+    <text x="760" y="811">mitmproxy  maigret  jc</text>
+    <text x="760" y="848">45 merged public PRs</text>
   </g>
 </svg>

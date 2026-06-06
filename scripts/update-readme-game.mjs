@@ -8,19 +8,11 @@ if (!token) {
 }
 
 const now = new Date();
-const from = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
 
 const query = `
-query($login: String!, $from: DateTime!, $to: DateTime!) {
+query($login: String!) {
   user(login: $login) {
-    followers { totalCount }
-    repositories(first: 1, privacy: PUBLIC) { totalCount }
-    contributionsCollection {
-      contributionCalendar { totalContributions }
-    }
-    recent: contributionsCollection(from: $from, to: $to) {
-      contributionCalendar { totalContributions }
-    }
+    login
   }
 }`;
 
@@ -33,7 +25,7 @@ const response = await fetch('https://api.github.com/graphql', {
   },
   body: JSON.stringify({
     query,
-    variables: { login, from: from.toISOString(), to: now.toISOString() },
+    variables: { login },
   }),
 });
 
@@ -49,20 +41,14 @@ if (payload.errors) {
   process.exit(1);
 }
 
-const user = payload.data.user;
 const mergedPrs = await searchCount(`type:pr author:${login} is:merged is:public`);
-const openPrs = await searchCount(`type:pr author:${login} is:open is:public`);
 const updated = now.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 
 const block = `<!-- STATUS-GAME:START -->
 \`\`\`text
-PUBLIC RUN STATE
-FOLLOWERS        ${user.followers.totalCount}
-PUBLIC REPOS     ${user.repositories.totalCount}
+PUBLIC RECEIPTS
 MERGED PRS       ${mergedPrs}
-OPEN PRS         ${openPrs}
-YEAR SIGNAL      ${user.contributionsCollection.contributionCalendar.totalContributions} contributions
-LAST 7 DAYS      ${user.recent.contributionCalendar.totalContributions} contributions
+UPSTREAMS        sentry-python / responses / mitmproxy / maigret / jc
 UPDATED          ${updated}
 \`\`\`
 <!-- STATUS-GAME:END -->`;
