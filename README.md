@@ -1,12 +1,24 @@
 <p align="center">
-  <img src="./assets/operator-card.svg" alt="Julio C operator card: commits are activity, merges are respect" width="100%">
+  <img src="./assets/operator-card.svg" alt="Julio Suastegui public activity terminal" width="100%">
 </p>
 
-# Julio C
+```text
+> boot eva/profile --pilot=juliosuas
+> scan public_activity --mode=brag
+> load waifu_ascii --asuka --akari --madona
+> init wired_operator_board --no-secrets --receipts-only
+```
 
-I build software like a field operator: reproduce the issue, cut the noise, ship the fix, leave proof.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=600&color=F2F2F2&center=true&vCenter=true&width=920&lines=juliosuas%40wired%3A~%24+ship+fixes+that+survive+review;commits+are+activity+%2F+merges+are+respect;mission-control+%2F+gbrain+%2F+agents-office+online;public+brag+board+uses+receipts%2C+not+vibes" alt="terminal typing animation">
+</p>
 
-Commits are activity. Merges are respect.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=juliosuas&label=profile+hits&color=111111&style=flat-square" alt="profile views">
+  <img src="https://img.shields.io/badge/mode-wired%20operator-f2f2f2?style=flat-square&labelColor=111111" alt="wired operator">
+  <img src="https://img.shields.io/badge/rule-no%20raw%20secrets-f2f2f2?style=flat-square&labelColor=111111" alt="no raw secrets">
+  <img src="https://img.shields.io/badge/status-shipping-f2f2f2?style=flat-square&labelColor=111111" alt="shipping">
+</p>
 
 <!-- STATUS-GAME:START -->
 ```text
@@ -17,7 +29,7 @@ MERGED PRS       45
 OPEN PRS         14
 YEAR SIGNAL      1201 contributions
 LAST 7 DAYS      130 contributions
-UPDATED          2026-06-06 04:19 UTC
+UPDATED          2026-06-06 06:40 UTC
 ```
 <!-- STATUS-GAME:END -->
 
@@ -25,26 +37,76 @@ UPDATED          2026-06-06 04:19 UTC
 Audit trail: [`type:pr author:juliosuas is:merged is:public`](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
 </sub>
 
-## Current Build
+## Terminal Board
 
 ```text
-CLASS        Founder / security-minded builder
-LOADOUT      Python, TypeScript, OSINT, automation, deploy gates
-MODE         useful systems, small diffs, real verification
-QUEST        turn public work into developer credibility
-STANDARD     proof before performance
+                          [ COMMIT FEED ]
+
+        /\_/\             push   -> rocio
+       ( o.o )            merge  -> sentry-python / responses / mitmproxy
+        > ^ <             review -> agents-office
+
+    ASUKA.SYS             AKARI.LOG             MADONA.EXE
+   /| redline |\         ( uptime )            < public glam >
+  /_|  loud  |_\       [ soft chaos ]          [ commit glow ]
+    |__ops__|          / local-first \          / vogue mode \
+
+status: shipping while the dashboard screams
+signal: red, loud, useful
+proof : public commits, merged PRs, live actions receipts
 ```
 
-## Reputation Ledger
+<table>
+<tr>
+<td width="50%">
 
-| Signal | Proof |
-|---|---|
-| Merged into the wild | Public merged pull requests returned by the same GitHub search query used by the profile automation |
-| Security taste | Fixes across OSINT, network tooling, parsers, CLI behavior, and app hardening |
-| Operator discipline | Reproduce, patch, test, document, then leave a trail a maintainer can review |
-| Builder range | Public products, automation systems, dashboards, and open-source repairs |
+### LIVE
 
-> Respect is not a badge. It is what remains after the diff survives review.
+```text
+GITHUB ACTIONS RECEIPTS
+followers / repos / prs
+refreshed every 6h
+```
+
+</td>
+<td width="50%">
+
+### PRS
+
+```text
+MERGED, REVIEWED, SHIPPED
+upstream fixes > empty flex
+public search backs the count
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### COMMITS
+
+```text
+PUBLIC GRAPH WIRED IN
+contribution signal visible
+green boxes are receipts
+```
+
+</td>
+<td width="50%">
+
+### AGENTS
+
+```text
+LUDWIG / JEFFREY / OFFICE
+mission-control
+gbrain
+knowledge
+```
+
+</td>
+</tr>
+</table>
 
 ## Merge Receipts
 
@@ -56,13 +118,32 @@ STANDARD     proof before performance
 - `maigret` - [#2588 Disable broken RomanticCollection check](https://github.com/soxoj/maigret/pull/2588)
 - `jc` - [#692 Fix hex prefix handling in ifconfig parser](https://github.com/kellyjonbrazil/jc/pull/692)
 
-## Active Quest Log
+## Stack / Tags
 
-- [x] Ship fixes that survive upstream review
-- [x] Build public tools with visible execution trails
-- [ ] Push active OSS PRs through review without noise
-- [ ] Convert the GitHub graph into durable reputation
-- [ ] Keep every public claim backed by a link
+<p>
+  <img src="https://img.shields.io/badge/mission--control-111111?style=for-the-badge" alt="mission control">
+  <img src="https://img.shields.io/badge/gbrain-111111?style=for-the-badge" alt="gbrain">
+  <img src="https://img.shields.io/badge/react-111111?style=for-the-badge&logo=react" alt="react">
+  <img src="https://img.shields.io/badge/typescript-111111?style=for-the-badge&logo=typescript" alt="typescript">
+  <img src="https://img.shields.io/badge/python-111111?style=for-the-badge&logo=python" alt="python">
+  <img src="https://img.shields.io/badge/ops-111111?style=for-the-badge" alt="ops">
+</p>
+
+<details>
+<summary><code>open /x/ transmission</code></summary>
+
+```text
+Best for: aggressive hacker flex.
+Feels like a terminal screenshot from a forum thread,
+but the numbers are tied to public GitHub signals.
+
+No raw vault.
+No private logs.
+No fake claims.
+Just public receipts and weird operator energy.
+```
+
+</details>
 
 ## Public Arsenal
 
@@ -71,23 +152,7 @@ STANDARD     proof before performance
 - [Copyfail Guard](https://github.com/juliosuas/copyfail-guard) - small shell utility for safer operator workflows.
 - [Jeffrey OS Dashboard](https://github.com/juliosuas/jeffrey-os-dashboard) - command surface for personal automation.
 
-## Operating Code
-
 ```text
-1. Useful beats loud.
-2. A small clean patch has more leverage than a theatrical rewrite.
-3. If the claim cannot be verified, it does not go on the profile.
-4. Build fast, but leave evidence.
+> logout
+session saved: public_profile/brag_board
 ```
-
-## Connect
-
-- Based in Mexico City.
-- Open to collaboration on cybersecurity, OSINT, automation, and AI-assisted product systems.
-- Best way to start: open an issue, review a PR, or point me at a real problem.
-
----
-
-<sub>
-This profile has a small game loop: the status block is refreshed by GitHub Actions from public GitHub signals.
-</sub>

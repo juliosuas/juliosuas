@@ -1,29 +1,65 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Julio C Operator Card</title>
-  <desc id="desc">A dark terminal-style GitHub profile banner showing Julio C as a founder and security-minded builder.</desc>
-  <rect width="1280" height="420" rx="0" fill="#070807"/>
-  <path d="M0 0H1280V420H0V0Z" fill="url(#grid)"/>
-  <rect x="42" y="38" width="1196" height="344" rx="18" fill="#0B0D0B" stroke="#263326" stroke-width="2"/>
-  <rect x="70" y="66" width="1140" height="288" rx="12" fill="#10130F" stroke="#1D291D"/>
-  <path d="M70 116H1210" stroke="#1C261C"/>
-  <circle cx="96" cy="91" r="7" fill="#B6F36A"/>
-  <circle cx="120" cy="91" r="7" fill="#B9904A"/>
-  <circle cx="144" cy="91" r="7" fill="#475847"/>
-  <text x="182" y="96" fill="#8EA38E" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">~/julio-c/public-reputation</text>
-  <text x="96" y="164" fill="#E8F5E8" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="58" font-weight="700">JULIO C</text>
-  <text x="100" y="205" fill="#B6F36A" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="24">FOUNDER / SECURITY-MINDED BUILDER</text>
-  <text x="100" y="252" fill="#C9D6C9" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="28">reproduce issue -> cut noise -> ship fix -> leave proof</text>
-  <text x="100" y="313" fill="#F0F7F0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30">COMMITS ARE ACTIVITY. MERGES ARE RESPECT.</text>
-  <g transform="translate(820 146)">
-    <rect x="0" y="0" width="310" height="144" rx="10" fill="#070807" stroke="#2A3D2A"/>
-    <text x="24" y="42" fill="#8EA38E" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">CURRENT QUEST</text>
-    <text x="24" y="80" fill="#E8F5E8" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="22">turn public work</text>
-    <text x="24" y="111" fill="#E8F5E8" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="22">into credibility</text>
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Julio Suastegui wired operator profile card</title>
+  <desc id="desc">A dark terminal-style GitHub profile banner with ASCII waifu panels and public commit feed.</desc>
+  <rect width="1280" height="760" fill="#0b0d12"/>
+  <path d="M0 0H1280V760H0V0Z" fill="url(#scan)"/>
+  <rect x="40" y="32" width="1200" height="296" fill="#090b10" stroke="#272c38" stroke-width="2"/>
+  <text x="78" y="78" fill="#c9cbd3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">&gt; boot eva/profile --pilot=juliosuas</text>
+  <text x="78" y="116" fill="#c9cbd3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="26">&gt; scan public_activity --mode=brag</text>
+  <text x="78" y="154" fill="#f5f5f5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="25">        /\_/\          [ COMMIT FEED ]</text>
+  <text x="78" y="188" fill="#f5f5f5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="25">       ( o.o )         push   -&gt; rocio</text>
+  <text x="78" y="222" fill="#f5f5f5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="25">        &gt; ^ &lt;         merge  -&gt; mission-control</text>
+  <text x="78" y="256" fill="#f5f5f5" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="25">                      review -&gt; agents-office</text>
+  <text x="78" y="300" fill="#c9cbd3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="25">status: shipping while the dashboard screams</text>
+
+  <g transform="translate(40 372)">
+    <rect width="360" height="150" fill="#151821" stroke="#343947"/>
+    <text x="28" y="45" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">ASUKA.SYS</text>
+    <text x="28" y="82" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">/| redline |\</text>
+    <text x="28" y="112" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">/_| loud ops |_\</text>
   </g>
-  <path d="M100 337H680" stroke="#B6F36A" stroke-width="2"/>
+
+  <g transform="translate(440 372)">
+    <rect width="360" height="150" fill="#151821" stroke="#343947"/>
+    <text x="28" y="45" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">AKARI.LOG</text>
+    <text x="28" y="82" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">( uptime )</text>
+    <text x="28" y="112" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">[ soft chaos ]</text>
+  </g>
+
+  <g transform="translate(840 372)">
+    <rect width="360" height="150" fill="#151821" stroke="#343947"/>
+    <text x="28" y="45" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">MADONA.EXE</text>
+    <text x="28" y="82" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">&lt; public glam &gt;</text>
+    <text x="28" y="112" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">[ commit glow ]</text>
+  </g>
+
+  <g transform="translate(40 562)">
+    <rect width="270" height="96" fill="#12151d" stroke="#303543"/>
+    <text x="28" y="42" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="700">LIVE</text>
+    <text x="28" y="72" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">ACTIONS RECEIPTS</text>
+  </g>
+  <g transform="translate(340 562)">
+    <rect width="270" height="96" fill="#12151d" stroke="#303543"/>
+    <text x="28" y="42" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="700">PRS</text>
+    <text x="28" y="72" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">MERGED / SHIPPED</text>
+  </g>
+  <g transform="translate(640 562)">
+    <rect width="270" height="96" fill="#12151d" stroke="#303543"/>
+    <text x="28" y="42" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="700">COMMITS</text>
+    <text x="28" y="72" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">PUBLIC GRAPH</text>
+  </g>
+  <g transform="translate(940 562)">
+    <rect width="260" height="96" fill="#12151d" stroke="#303543"/>
+    <text x="28" y="42" fill="#ffffff" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="700">AGENTS</text>
+    <text x="28" y="72" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="18">LUDWIG / JEFFREY</text>
+  </g>
+
+  <rect x="40" y="692" width="1200" height="1" fill="#303543"/>
+  <text x="40" y="725" fill="#aeb2bf" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">best for: aggressive hacker flex, but backed by public GitHub receipts</text>
+
   <defs>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#102010" stroke-opacity="0.55" stroke-width="1"/>
+    <pattern id="scan" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" stroke="#171b24" stroke-opacity="0.45" stroke-width="1"/>
     </pattern>
   </defs>
 </svg>
