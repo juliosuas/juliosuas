@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/operator-card.svg" alt="Julio Suastegui GitHub profile terminal with Asuka, Akari and Madoka ASCII" width="100%">
+  <img src="./assets/operator-card.svg" alt="One terminal biography for Julio Suastegui with Asuka, Akari and Madoka ASCII plus GitHub and tech stack" width="100%">
 </p>
 
 ```text
 > boot github/profile --handle=juliosuas
-> load waifu_ascii --asuka --akari --madoka
-> mount public_receipts --commits --prs --repos --screenshots
-> render terminal_board --style=/g/ --no-secrets --ship-or-log-out
+> load single_terminal_bio --asuka --akari --madoka
+> mount github tech_stack projects upstream_prs repo_screenshots
+> render profile_readme --public --no-secrets --receipts-only
 ```
 
 <p align="center">
@@ -23,83 +23,19 @@
 <!-- STATUS-GAME:START -->
 ```text
 PUBLIC RUN STATE
-FOLLOWERS        94
+FOLLOWERS        95
 PUBLIC REPOS     63
 MERGED PRS       45
 OPEN PRS         14
-YEAR SIGNAL      1220 contributions
-LAST 7 DAYS      149 contributions
-UPDATED          2026-06-06 06:47 UTC
+YEAR SIGNAL      1221 contributions
+LAST 7 DAYS      150 contributions
+UPDATED          2026-06-06 07:58 UTC
 ```
 <!-- STATUS-GAME:END -->
 
 <sub>
 Audit trail: [`type:pr author:juliosuas is:merged is:public`](https://github.com/search?q=type%3Apr+author%3Ajuliosuas+is%3Amerged+is%3Apublic&type=pullrequests)
 </sub>
-
-## `terminal / profile`
-
-```text
-ASUKA.SYS>  Julio, stop lurking. Show the graph.
-AKARI.LOG>  Public repos mounted. Soft chaos, hard receipts.
-MADOKA.EXE> Contract accepted: every flex needs a link.
-
-operator   : Julio Suastegui
-handle     : juliosuas
-runtime    : GitHub + OpenClaw + agents + dashboards
-current    : Mission Control / GBrain / Knowledge / public repo receipts
-rule       : no vault dumps, no raw secrets, no fake stats
-```
-
-<table>
-<tr>
-<td width="33%">
-
-```text
-    ASUKA.SYS
-     /\_/\
-    ( o_o )
-    /| R |\
-   /_|___|_\
-
-redline commits
-upstream PRs
-ship-or-log-out
-```
-
-</td>
-<td width="33%">
-
-```text
-    AKARI.LOG
-    .-"""-.
-   /  o o  \
-  |    ^    |
-   \  ---  /
-
-soft chaos
-public graph
-repo glow
-```
-
-</td>
-<td width="33%">
-
-```text
-    MADOKA.EXE
-      /|\
-     /_|_\
-    ( '_' )
-    /|___|\
-
-pink terminal
-actions refresh
-no fake claims
-```
-
-</td>
-</tr>
-</table>
 
 ## `stats / graphic mode`
 
