@@ -1,0 +1,5 @@
+getsentry/sentry-python   #6241  drop scrubbed user IP addresses
+getsentry/responses       #791   remove content-type from file playback
+mitmproxy/mitmproxy       #8196  avoid binary tail detection crash
+soxoj/maigret             #2588  disable broken platform check
+kellyjonbrazil/jc         #692   fix ifconfig hex prefix handling

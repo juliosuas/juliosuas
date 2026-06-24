@@ -1,0 +1,5 @@
+Name      Julio Cesar Suastegui Calderon
+Where     Mexico City
+Mode      security, automation, agent systems
+Signal    upstream patches, OSINT, GitHub operations
+Handle    github.com/juliosuas

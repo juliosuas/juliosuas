@@ -1,0 +1,2 @@
+Python  TypeScript  Next.js  FastAPI  Playwright
+OpenAI  GBrain      Tailscale  GitHub Actions

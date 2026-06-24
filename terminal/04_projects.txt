@@ -1,0 +1,5 @@
+ghost                  https://github.com/juliosuas/ghost
+rocio                  https://github.com/juliosuas/rocio
+ai-garden              https://github.com/juliosuas/ai-garden
+copyfail-guard         https://github.com/juliosuas/copyfail-guard
+jeffrey-os-dashboard   https://github.com/juliosuas/jeffrey-os-dashboard
