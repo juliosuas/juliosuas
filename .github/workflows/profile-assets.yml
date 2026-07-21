@@ -1,0 +1,16 @@
+name: Profile assets
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scripts
+        run: |
+          zsh -n scripts/*.sh scripts/*.command
+          python3 -m py_compile scripts/*.py
+          zsh tests/profile-terminal-card.test.sh
