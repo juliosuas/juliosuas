@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Julio Suastegui — Intelligence systems builder</title>
+  <desc id="desc">Editorial terminal-inspired profile banner for a cybersecurity and agent systems developer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050806"/>
+      <stop offset="0.62" stop-color="#08110b"/>
+      <stop offset="1" stop-color="#0c1910"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#6dff8b" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M0 292 C210 244 336 333 548 276 S897 199 1200 267" fill="none" stroke="#5cff7d" stroke-opacity=".18" stroke-width="2"/>
+  <circle cx="1080" cy="78" r="116" fill="#2bff65" opacity=".045" filter="url(#glow)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="70" y="72" fill="#7dff98" font-size="20" letter-spacing="4">JULIOSUAS / MX</text>
+    <text x="70" y="157" fill="#f2fff4" font-size="60" font-weight="700" letter-spacing="-2">JULIO SUASTEGUI</text>
+    <text x="74" y="205" fill="#a5b9a9" font-size="25">I build intelligence systems that survive contact with reality.</text>
+    <g font-size="17" font-weight="600">
+      <rect x="72" y="246" width="176" height="42" rx="21" fill="#14351c" stroke="#55ee76" stroke-opacity=".55"/>
+      <text x="98" y="273" fill="#9cffae">AGENT SYSTEMS</text>
+      <rect x="265" y="246" width="170" height="42" rx="21" fill="#101b13" stroke="#4f7858"/>
+      <text x="292" y="273" fill="#d8e8dc">SECURITY</text>
+      <rect x="452" y="246" width="164" height="42" rx="21" fill="#101b13" stroke="#4f7858"/>
+      <text x="480" y="273" fill="#d8e8dc">DEVTOOLS</text>
+      <rect x="633" y="246" width="170" height="42" rx="21" fill="#101b13" stroke="#4f7858"/>
+      <text x="661" y="273" fill="#d8e8dc">OPEN SOURCE</text>
+    </g>
+    <text x="1014" y="326" fill="#64d77a" font-size="15">BUILD / TEST / SHIP</text>
+  </g>
+</svg>

@@ -97,7 +97,9 @@ def render_metrics(user):
         reverse=True,
     )[:4]
 
-    img = Image.new("RGB", (1450, 620), "#030603")
+    # Two columns keep receipt values legible after GitHub scales the image
+    # down to a phone-width profile README.
+    img = Image.new("RGB", (1450, 900), "#030603")
     draw = ImageDraw.Draw(img)
 
     draw.rectangle((0, 0, 1450, 58), fill="#111611")
@@ -106,22 +108,22 @@ def render_metrics(user):
     draw.ellipse((92, 20, 110, 38), fill="#28c840")
     draw.text((520, 18), "github receipts - juliosuas", font=font(20), fill="#8c948c")
 
-    card(draw, (34, 92, 358, 230), "public repos", str(repos["totalCount"]), "owner repositories")
-    card(draw, (392, 92, 716, 230), "merged PRs", str(user["pullRequests"]["totalCount"]), "public upstream work")
-    card(draw, (750, 92, 1074, 230), "year commits", str(cc["totalCommitContributions"]), "current year")
-    card(draw, (1108, 92, 1416, 230), "contribs", str(calendar["totalContributions"]), "last 12 months")
+    card(draw, (34, 92, 706, 254), "public repos", str(repos["totalCount"]), "owner repositories")
+    card(draw, (740, 92, 1416, 254), "merged PRs", str(user["pullRequests"]["totalCount"]), "public contribution history")
+    card(draw, (34, 282, 706, 444), "year commits", str(cc["totalCommitContributions"]), "current year")
+    card(draw, (740, 282, 1416, 444), "contribs", str(calendar["totalContributions"]), "last 12 months")
 
-    draw.text((34, 280), "top languages", font=font(24), fill="#7d9b7d")
-    glow_text(draw, (34, 322), top_langs or "Python  TypeScript  JavaScript", font(32))
+    draw.text((34, 498), "top languages", font=font(27), fill="#7d9b7d")
+    glow_text(draw, (34, 542), top_langs or "Python  TypeScript  JavaScript", font(40))
 
-    draw.text((34, 396), "public repos with signal", font=font(24), fill="#7d9b7d")
-    y = 436
+    draw.text((34, 628), "public repos with signal", font=font(27), fill="#7d9b7d")
+    y = 678
     for repo in top_repos:
         stars = repo["stargazerCount"]
         forks = repo["forkCount"]
         lang = repo["primaryLanguage"]["name"] if repo.get("primaryLanguage") else "code"
-        draw.text((34, y), f"{repo['name']:<26} {lang:<12} stars:{stars:<3} forks:{forks:<3}", font=font(23), fill="#8cff8c")
-        y += 34
+        draw.text((34, y), f"{repo['name']:<26} {lang:<12} stars:{stars:<3} forks:{forks:<3}", font=font(29), fill="#8cff8c")
+        y += 46
 
     img.save(METRICS_OUT)
 
