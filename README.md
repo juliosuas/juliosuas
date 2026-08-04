@@ -22,21 +22,82 @@ Based in Mexico City. Working in public across AI agents, developer tooling, OSI
 | [**Polymarket Desk**](https://github.com/juliosuas/polymarket-desk) | A read-only market intelligence desk for flow, movers, value screens, and live tape. [Open the desk →](https://polymarket-desk-seven.vercel.app) |
 | [**Wake Up Daddy's Home**](https://github.com/juliosuas/wake-up-daddys-home) | A physical-computing JARVIS ritual: clap activation, dashboard orchestration, and Spotify. |
 
-### Open-source receipts
+### Merged upstream · selected impact
 
-Not contribution wallpaper—merged changes in projects people depend on:
-
-- [**Sentry Python #6241**](https://github.com/getsentry/sentry-python/pull/6241) — added an option to drop scrubbed user IP addresses.
-- [**Palantir Blueprint #8165**](https://github.com/palantir/blueprint/pull/8165) — detected deprecated React components imported through aliases.
-- [**OWASP Agent Security Regression Harness #149**](https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149) — added live HTTP target header support.
-- [**Locust #3384**](https://github.com/locustio/locust/pull/3384) — corrected report and navbar request-rate semantics.
-- [**Aqua Trivy #10828**](https://github.com/aquasecurity/trivy/pull/10828) · [**#10857**](https://github.com/aquasecurity/trivy/pull/10857) — documentation corrections in a widely used security scanner.
-- [**Texas Instruments open-pru #139**](https://github.com/TexasInstruments/open-pru/pull/139) · [**processor-sdk-doc #720**](https://github.com/TexasInstruments/processor-sdk-doc/pull/720) — portable toolchain guidance and documentation quality.
-- **Maigret repeat contributor** — merged fixes and features across [#2318](https://github.com/soxoj/maigret/pull/2318), [#2442](https://github.com/soxoj/maigret/pull/2442), [#2558](https://github.com/soxoj/maigret/pull/2558), [#2588](https://github.com/soxoj/maigret/pull/2588), and [#2779](https://github.com/soxoj/maigret/pull/2779).
-
-<p align="center">
-  <img src="./assets/github-graphics.png" width="100%" alt="Live GitHub contribution receipts">
+<p>
+  <img alt="Merged work" src="https://img.shields.io/badge/UPSTREAM-MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=071009&amp;labelColor=071009">
+  <img alt="Evidence linked" src="https://img.shields.io/badge/EVIDENCE-CLICK_EVERY_RECEIPT-9aa8ff?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=071009">
 </p>
+
+Recognizable organizations accepted this work into the software people use. The headline explains the value; the receipt exposes the exact code review.
+
+<table>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry logo"></a>
+    </td>
+    <td>
+      <strong>Sentry · Python SDK</strong><br>
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241 MERGED</code></a> — gave teams a privacy control that drops scrubbed user IP addresses from the official SDK.<br>
+      <sub>Python · privacy · SDK behavior</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/palantir/blueprint/pull/8165"><img src="https://github.com/palantir.png?size=112" width="56" height="56" loading="lazy" alt="Palantir logo"></a>
+    </td>
+    <td>
+      <strong>Palantir · Blueprint</strong><br>
+      <a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165 MERGED</code></a> — made large React migrations safer by detecting deprecated components hidden behind aliases.<br>
+      <sub>TypeScript · React · static analysis</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP logo"></a>
+    </td>
+    <td>
+      <strong>OWASP · Agent Security Regression Harness</strong><br>
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149 MERGED</code></a> — enabled more realistic, authenticated HTTP testing for AI-agent security regressions.<br>
+      <sub>Python · agent security · HTTP testing</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/aquasecurity/trivy/pull/10828"><img src="https://github.com/aquasecurity.png?size=112" width="56" height="56" loading="lazy" alt="Aqua Security logo"></a>
+    </td>
+    <td>
+      <strong>Aqua Security · Trivy</strong><br>
+      <a href="https://github.com/aquasecurity/trivy/pull/10828"><code>#10828 MERGED</code></a> · <a href="https://github.com/aquasecurity/trivy/pull/10857"><code>#10857 MERGED</code></a> — made a widely used software-supply-chain scanner easier to operate correctly.<br>
+      <sub>Go ecosystem · security · developer experience</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" width="56" height="56" loading="lazy" alt="Maigret logo"></a>
+    </td>
+    <td>
+      <strong>Maigret · repeat contributor</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> — five accepted improvements show sustained trust, not a one-off contribution.<br>
+      <sub>Python · OSINT · sustained maintenance</sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Open the rest of the merged ledger</strong> · more organizations, logos, and receipts</summary>
+<br>
+<table>
+  <tr>
+    <td width="58" align="center"><img src="https://github.com/locustio.png?size=96" width="42" height="42" loading="lazy" alt="Locust logo"></td>
+    <td><strong>Locust</strong><br><a href="https://github.com/locustio/locust/pull/3384">#3384 MERGED</a> — corrected report and navbar request-rate semantics.</td>
+  </tr>
+  <tr>
+    <td width="58" align="center"><img src="https://github.com/TexasInstruments.png?size=96" width="42" height="42" loading="lazy" alt="Texas Instruments logo"></td>
+    <td><strong>Texas Instruments</strong><br><a href="https://github.com/TexasInstruments/open-pru/pull/139">open-pru #139</a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720">processor-sdk-doc #720</a> — portable toolchain guidance and documentation quality.</td>
+  </tr>
+</table>
+</details>
 
 ### Shipping now
 
