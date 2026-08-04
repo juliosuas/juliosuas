@@ -84,5 +84,5 @@ The goal is not “AI wrote code.” The goal is reliable software with a shorte
 
 <p align="center">
   <strong>Build the system. Test the claim. Ship the evidence.</strong><br>
-  <a href="https://github.com/juliosuas/ghost">flagship project</a> · <a href="https://github.com/juliosuas?tab=repositories">repositories</a> · <a href="https://github.com/juliosuas?tab=pull-requests">pull requests</a>
+  <a href="https://github.com/juliosuas/ghost">flagship project</a> · <a href="https://github.com/juliosuas?tab=repositories">repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">pull requests</a>
 </p>

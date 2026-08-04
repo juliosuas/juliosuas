@@ -2,6 +2,7 @@
 from collections import Counter
 from pathlib import Path
 import json
+import os
 import subprocess
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -12,10 +13,15 @@ METRICS_OUT = ASSETS / "github-graphics.png"
 GRID_OUT = ASSETS / "contribution-grid.png"
 
 FONT_PATHS = [
+    Path(os.environ["PROFILE_FONT_PATH"]) if os.environ.get("PROFILE_FONT_PATH") else None,
     Path("/Library/Fonts/Monaco.ttf"),
     Path("/System/Library/Fonts/Menlo.ttc"),
+    Path("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"),
 ]
-FONT_PATH = next(path for path in FONT_PATHS if path.exists())
+FONT_PATH = next((path for path in FONT_PATHS if path and path.exists()), None)
+if FONT_PATH is None:
+    searched = ", ".join(str(path) for path in FONT_PATHS if path)
+    raise RuntimeError(f"No profile font found. Searched: {searched}")
 
 
 def gh_graphql():
