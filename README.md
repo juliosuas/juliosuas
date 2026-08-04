@@ -12,16 +12,6 @@ I build **agentic engineering systems, security tooling, and product operations*
 
 Based in Mexico City. Working in public across AI agents, developer tooling, OSINT, cybersecurity, and automation.
 
-### Selected systems
-
-| Project | What it proves |
-| --- | --- |
-| [**Ghost**](https://github.com/juliosuas/ghost) | AI-powered OSINT investigations across 70+ username sources, evidence capture, analysis, and professional reporting. |
-| [**AI Garden**](https://github.com/juliosuas/ai-garden) | A living pixel-art world evolved through public contributions from autonomous AI agents. [Enter the garden →](https://juliosuas.github.io/ai-garden/) |
-| [**Copyfail Guard**](https://github.com/juliosuas/copyfail-guard) | Auditable Linux mitigation and verification tooling for a real kernel security failure mode. |
-| [**Polymarket Desk**](https://github.com/juliosuas/polymarket-desk) | A read-only market intelligence desk for flow, movers, value screens, and live tape. [Open the desk →](https://polymarket-desk-seven.vercel.app) |
-| [**Wake Up Daddy's Home**](https://github.com/juliosuas/wake-up-daddys-home) | A physical-computing JARVIS ritual: clap activation, dashboard orchestration, and Spotify. |
-
 ### Merged upstream · selected impact
 
 <p>
