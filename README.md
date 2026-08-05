@@ -54,6 +54,26 @@ Recognizable organizations accepted this work into the software people use. The 
   </tr>
   <tr>
     <td width="72" align="center">
+      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><img src="https://github.com/TexasInstruments.png?size=112" width="56" height="56" loading="lazy" alt="Texas Instruments logo"></a>
+    </td>
+    <td>
+      <strong>Texas Instruments · embedded developer tooling</strong><br>
+      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><code>open-pru #139 MERGED</code></a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720"><code>processor-sdk-doc #720 MERGED</code></a> — improved portable assembly workflows and made Android SDK documentation more reliable to build and maintain.<br>
+      <sub>Embedded systems · assembly toolchains · Linux/Android documentation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><img src="https://github.com/google-labs-code.png?size=112" width="56" height="56" loading="lazy" alt="Google Labs Code logo"></a>
+    </td>
+    <td>
+      <strong>Google Labs · design.md</strong><br>
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131 MERGED</code></a> — fixed primitive rendering from specification config, keeping AI-assisted design output faithful to its source data.<br>
+      <sub>TypeScript · generative UI · structured specifications</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
       <a href="https://github.com/aquasecurity/trivy/pull/10828"><img src="https://github.com/aquasecurity.png?size=112" width="56" height="56" loading="lazy" alt="Aqua Security logo"></a>
     </td>
     <td>
@@ -75,7 +95,7 @@ Recognizable organizations accepted this work into the software people use. The 
 </table>
 
 <details>
-<summary><strong>Open the rest of the merged ledger</strong> · more organizations, logos, and receipts</summary>
+<summary><strong>Open the full merged ledger</strong> · security, developer tools, and infrastructure receipts</summary>
 <br>
 <table>
   <tr>
@@ -83,10 +103,31 @@ Recognizable organizations accepted this work into the software people use. The 
     <td><strong>Locust</strong><br><a href="https://github.com/locustio/locust/pull/3384">#3384 MERGED</a> — corrected report and navbar request-rate semantics.</td>
   </tr>
   <tr>
-    <td width="58" align="center"><img src="https://github.com/TexasInstruments.png?size=96" width="42" height="42" loading="lazy" alt="Texas Instruments logo"></td>
-    <td><strong>Texas Instruments</strong><br><a href="https://github.com/TexasInstruments/open-pru/pull/139">open-pru #139</a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720">processor-sdk-doc #720</a> — portable toolchain guidance and documentation quality.</td>
+    <td width="58" align="center"><img src="https://github.com/mitmproxy.png?size=96" width="42" height="42" loading="lazy" alt="mitmproxy logo"></td>
+    <td><strong>mitmproxy</strong><br><a href="https://github.com/mitmproxy/mitmproxy/pull/8196">#8196 MERGED</a> — prevented a binary-detection crash on short network payload tails.</td>
+  </tr>
+  <tr>
+    <td width="58" align="center"><img src="https://github.com/getsentry.png?size=96" width="42" height="42" loading="lazy" alt="Sentry logo"></td>
+    <td><strong>Sentry · Responses</strong><br><a href="https://github.com/getsentry/responses/pull/791">#791 MERGED</a> · <a href="https://github.com/getsentry/responses/pull/807">#807 MERGED</a> — fixed recorded-response failures and strengthened public Python typing.</td>
+  </tr>
+  <tr>
+    <td width="58" align="center"><img src="https://github.com/zeek.png?size=96" width="42" height="42" loading="lazy" alt="Zeek logo"></td>
+    <td><strong>Zeek · package manager</strong><br><a href="https://github.com/zeek/package-manager/pull/222">#222 MERGED</a> · <a href="https://github.com/zeek/package-manager/pull/224">#224 MERGED</a> — improved the onboarding path for a core network-security ecosystem.</td>
+  </tr>
+  <tr>
+    <td width="58" align="center"><img src="https://github.com/kellyjonbrazil.png?size=96" width="42" height="42" loading="lazy" alt="jc logo"></td>
+    <td><strong>jc</strong><br><a href="https://github.com/kellyjonbrazil/jc/pull/692">#692 MERGED</a> · <a href="https://github.com/kellyjonbrazil/jc/pull/711">#711 MERGED</a> — corrected network-parser behavior and improved command-line data tooling.</td>
   </tr>
 </table>
+</details>
+
+<details>
+<summary><strong>Cybersecurity + AI fieldwork</strong> · accurate status, no inflated claims</summary>
+
+- **Anthropic Cybersecurity Skills (community project)** — improved cloud-security skill descriptions for agent discovery in [PR #25](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/25). The proposal was closed rather than merged, so it is shown as fieldwork—not an upstream acceptance.
+- **Security surface covered** — cloud security, malware analysis, forensics, OSINT, agent security, network traffic, and software-supply-chain scanning.
+- **Operating principle** — reproduce the failure, make the smallest defensible change, test the claim, and link the public receipt.
+
 </details>
 
 ### Shipping now
