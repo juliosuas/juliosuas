@@ -87,9 +87,9 @@ Recognizable organizations accepted this work into the software people use. The 
       <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" width="56" height="56" loading="lazy" alt="Maigret logo"></a>
     </td>
     <td>
-      <strong>Maigret · repeat contributor</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> — five accepted improvements show sustained trust, not a one-off contribution.<br>
-      <sub>Python · OSINT · sustained maintenance</sub>
+      <strong>Maigret · seven merged investigations into better OSINT</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> · <a href="https://github.com/soxoj/maigret/pull/2929"><code>#2929</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> — turned noisy identity searches into stronger evidence: fewer false positives, healthier site detection, and XMind exports that open correctly in modern readers. Seven accepted changes now form a visible record of maintainer trust, not a one-off contribution.<br>
+      <sub>Python · OSINT reliability · data exports · sustained maintenance</sub>
     </td>
   </tr>
 </table>
@@ -132,8 +132,6 @@ Recognizable organizations accepted this work into the software people use. The 
 
 ### Shipping now
 
-- [Maigret #2930](https://github.com/soxoj/maigret/pull/2930) — modern XMind reader compatibility; full multi-version CI green.
-- [Maigret #2929](https://github.com/soxoj/maigret/pull/2929) — ReverbNation false-positive detection; full multi-version CI green.
 - [jc #722](https://github.com/kellyjonbrazil/jc/pull/722) — preserves bracketed and empty scalar values; 20-platform CI matrix green.
 
 ### Working stack
