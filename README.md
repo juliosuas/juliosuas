@@ -132,6 +132,7 @@ Recognizable organizations accepted this work into the software people use. The 
 
 ### Shipping now
 
+- [Google Labs design.md #173](https://github.com/google-labs-code/design.md/pull/173) — fixes the packaged CLI's broken `spec` command by shipping the format reference at the path the bundle resolves (opened 2026-08-25).
 - [jc #722](https://github.com/kellyjonbrazil/jc/pull/722) — preserves bracketed and empty scalar values; 20-platform CI matrix green.
 
 ### Working stack
