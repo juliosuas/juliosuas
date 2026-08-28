@@ -87,9 +87,9 @@ Recognizable organizations accepted this work into the software people use. The 
       <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" width="56" height="56" loading="lazy" alt="Maigret logo"></a>
     </td>
     <td>
-      <strong>Maigret · seven merged investigations into better OSINT</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> · <a href="https://github.com/soxoj/maigret/pull/2929"><code>#2929</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> — turned noisy identity searches into stronger evidence: fewer false positives, healthier site detection, and XMind exports that open correctly in modern readers. Seven accepted changes now form a visible record of maintainer trust, not a one-off contribution.<br>
-      <sub>Python · OSINT reliability · data exports · sustained maintenance</sub>
+      <strong>Maigret · eight merged investigations into better OSINT</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> · <a href="https://github.com/soxoj/maigret/pull/2929"><code>#2929</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — turned noisy identity searches into stronger evidence: fewer false positives, healthier site detection, modern XMind exports, and status-code checks that distinguish redirects from genuinely missing profiles. Eight accepted changes now show sustained maintainer trust, not a one-off contribution.<br>
+      <sub>Python · OSINT reliability · HTTP evidence · data exports · sustained maintenance</sub>
     </td>
   </tr>
 </table>
