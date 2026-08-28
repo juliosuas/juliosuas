@@ -12,24 +12,24 @@ I build **agentic engineering systems, security tooling, and product operations*
 
 Based in Mexico City. Working in public across AI agents, developer tooling, OSINT, cybersecurity, and automation.
 
-### Merged upstream · selected impact
+### Merged upstream · strongest impact first
 
 <p>
   <img alt="Merged work" src="https://img.shields.io/badge/UPSTREAM-MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=071009&amp;labelColor=071009">
   <img alt="Evidence linked" src="https://img.shields.io/badge/EVIDENCE-CLICK_EVERY_RECEIPT-9aa8ff?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=071009">
 </p>
 
-Recognizable organizations accepted this work into the software people use. The headline explains the value; the receipt exposes the exact code review.
+Recognizable organizations accepted this work into the software people use. The strongest, sustained contributions lead; every accepted contribution remains visible below with its exact code-review receipt.
 
 <table>
   <tr>
     <td width="72" align="center">
-      <a href="https://github.com/getsentry/sentry-python/pull/6241"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry logo"></a>
+      <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" width="56" height="56" loading="lazy" alt="Maigret logo"></a>
     </td>
     <td>
-      <strong>Sentry · Python SDK</strong><br>
-      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241 MERGED</code></a> — gave teams a privacy control that drops scrubbed user IP addresses from the official SDK.<br>
-      <sub>Python · privacy · SDK behavior</sub>
+      <strong>Maigret · eight merged investigations into better OSINT</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> · <a href="https://github.com/soxoj/maigret/pull/2929"><code>#2929</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — turned noisy identity searches into stronger evidence: fewer false positives, healthier site detection, modern XMind exports, and status-code checks that distinguish redirects from genuinely missing profiles. Eight accepted changes now show sustained maintainer trust, not a one-off contribution.<br>
+      <sub>Python · OSINT reliability · HTTP evidence · data exports · sustained maintenance</sub>
     </td>
   </tr>
   <tr>
@@ -44,16 +44,6 @@ Recognizable organizations accepted this work into the software people use. The 
   </tr>
   <tr>
     <td width="72" align="center">
-      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP logo"></a>
-    </td>
-    <td>
-      <strong>OWASP · Agent Security Regression Harness</strong><br>
-      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149 MERGED</code></a> — enabled more realistic, authenticated HTTP testing for AI-agent security regressions.<br>
-      <sub>Python · agent security · HTTP testing</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center">
       <a href="https://github.com/TexasInstruments/open-pru/pull/139"><img src="https://github.com/TexasInstruments.png?size=112" width="56" height="56" loading="lazy" alt="Texas Instruments logo"></a>
     </td>
     <td>
@@ -64,12 +54,22 @@ Recognizable organizations accepted this work into the software people use. The 
   </tr>
   <tr>
     <td width="72" align="center">
-      <a href="https://github.com/google-labs-code/design.md/pull/131"><img src="https://github.com/google-labs-code.png?size=112" width="56" height="56" loading="lazy" alt="Google Labs Code logo"></a>
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry logo"></a>
     </td>
     <td>
-      <strong>Google Labs · design.md</strong><br>
-      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131 MERGED</code></a> — fixed primitive rendering from specification config, keeping AI-assisted design output faithful to its source data.<br>
-      <sub>TypeScript · generative UI · structured specifications</sub>
+      <strong>Sentry · Python SDK</strong><br>
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241 MERGED</code></a> — gave teams a privacy control that drops scrubbed user IP addresses from the official SDK.<br>
+      <sub>Python · privacy · SDK behavior</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center">
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP logo"></a>
+    </td>
+    <td>
+      <strong>OWASP · Agent Security Regression Harness</strong><br>
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149 MERGED</code></a> — enabled more realistic, authenticated HTTP testing for AI-agent security regressions.<br>
+      <sub>Python · agent security · HTTP testing</sub>
     </td>
   </tr>
   <tr>
@@ -84,18 +84,18 @@ Recognizable organizations accepted this work into the software people use. The 
   </tr>
   <tr>
     <td width="72" align="center">
-      <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png" width="56" height="56" loading="lazy" alt="Maigret logo"></a>
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><img src="https://github.com/google-labs-code.png?size=112" width="56" height="56" loading="lazy" alt="Google Labs Code logo"></a>
     </td>
     <td>
-      <strong>Maigret · eight merged investigations into better OSINT</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> · <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> · <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> · <a href="https://github.com/soxoj/maigret/pull/2588"><code>#2588</code></a> · <a href="https://github.com/soxoj/maigret/pull/2779"><code>#2779</code></a> · <a href="https://github.com/soxoj/maigret/pull/2929"><code>#2929</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — turned noisy identity searches into stronger evidence: fewer false positives, healthier site detection, modern XMind exports, and status-code checks that distinguish redirects from genuinely missing profiles. Eight accepted changes now show sustained maintainer trust, not a one-off contribution.<br>
-      <sub>Python · OSINT reliability · HTTP evidence · data exports · sustained maintenance</sub>
+      <strong>Google Labs · design.md</strong><br>
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131 MERGED</code></a> — fixed primitive rendering from specification config, keeping AI-assisted design output faithful to its source data.<br>
+      <sub>TypeScript · generative UI · structured specifications</sub>
     </td>
   </tr>
 </table>
 
-<details>
-<summary><strong>Open the full merged ledger</strong> · security, developer tools, and infrastructure receipts</summary>
+<details open>
+<summary><strong>Full merged ledger</strong> · every remaining security, developer tools, and infrastructure receipt</summary>
 <br>
 <table>
   <tr>
