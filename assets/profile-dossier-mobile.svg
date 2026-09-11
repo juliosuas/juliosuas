@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
+<title id="title">Julio Suástegui — intelligence, engineered.</title><desc id="desc">Independent builder in Mexico City. OSINT, agent systems and security tooling. 44 verified upstream merges across 16 repositories, including 10 in Maigret, as of September 11, 2026.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b2ffc4" stroke-opacity=".045"/></pattern><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07110c"/><stop offset="1" stop-color="#101e16"/></linearGradient></defs>
+<rect width="600" height="650" rx="20" fill="url(#bg)"/><rect width="600" height="650" rx="20" fill="url(#grid)"/><rect x="1" y="1" width="598" height="648" rx="19" fill="none" stroke="#294435"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<g font-family="monospace" font-size="18" letter-spacing="2" fill="#96b7a1"><text x="40" y="48">JULIOSUAS / MEXICO CITY</text></g>
+<circle cx="43" cy="99" r="4" fill="#63ff86"/><text x="58" y="105" fill="#63ff86" font-size="18" letter-spacing="2">OSINT + AGENTS + SECURITY</text>
+<text x="36" y="192" fill="#f0f8f2" font-size="61" font-weight="700" letter-spacing="-3">Intelligence,</text>
+<text x="36" y="261" fill="#63ff86" font-size="61" font-weight="700" letter-spacing="-3">engineered.</text>
+<text x="40" y="314" fill="#f0f8f2" font-size="25">Julio César Suástegui</text>
+<text x="40" y="359" fill="#a7b9ac" font-size="21">From uncertain signals to tested software.</text>
+
+<path d="M40 405H560" stroke="#304837"/>
+<g font-family="monospace">
+<text x="40" y="455" fill="#f0f8f2" font-size="36">44</text><text x="220" y="455" fill="#f0f8f2" font-size="36">16</text><text x="410" y="455" fill="#63ff86" font-size="36">10</text>
+<g fill="#96ac9d" font-size="15" letter-spacing="1"><text x="40" y="485">UPSTREAM MERGES</text><text x="220" y="485">REPOSITORIES</text><text x="410" y="485">IN MAIGRET</text></g>
+<text x="40" y="564" fill="#63ff86" font-size="18">REPRODUCE → PATCH → VERIFY</text><text x="40" y="602" fill="#96ac9d" font-size="16">VERIFIED SNAPSHOT / 2026-09-11</text>
+</g></g></svg>
