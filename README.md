@@ -1,103 +1,159 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Julio Suastegui — intelligence systems builder">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/profile-dossier-mobile.svg">
+    <img src="./assets/profile-dossier.svg" width="100%" alt="Julio César Suástegui — Intelligence, engineered. 44 upstream merges, 16 repositories, 10 merges in Maigret. Verified September 11, 2026.">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
-  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
+  <samp><a href="#maigret">01 / MAIGRET</a> &nbsp;·&nbsp; <a href="#selected-upstream">02 / UPSTREAM</a> &nbsp;·&nbsp; <a href="#contribution-ledger">03 / EVIDENCE</a> &nbsp;·&nbsp; <a href="#working-stack">04 / TOOLKIT</a></samp>
 </p>
 
-I build **agentic engineering systems, security tooling, and product operations** that turn ambiguous work into tested, reviewable software. My focus is the gap between a convincing demo and a dependable system: the edge case, the false positive, the missing regression test.
+<br>
 
-Based in **Mexico City**. Working in public across AI agents, developer tooling, OSINT, cybersecurity, and automation.
+I’m **Julio**, an independent builder in **Mexico City** working across OSINT, agent systems, and security tooling. I turn ambiguous problems into software you can inspect: a focused change, a reproducible test, a public review.
 
-```text
-$ whoami
-  builder / investigator / open-source contributor
+**My most sustained upstream work is in [Maigret](https://github.com/soxoj/maigret)** — improving the path from a username search to evidence an investigator can use.
 
-$ operating-loop
-  reproduce → isolate → patch → test → review → merge
-```
+<br>
 
-<p align="center">
-  <a href="#merged-upstream"><strong>Merged upstream</strong></a> ·
-  <a href="#contribution-ledger"><strong>Contribution ledger</strong></a> ·
-  <a href="#on-the-workbench"><strong>On the workbench</strong></a> ·
-  <a href="#working-stack"><strong>Working stack</strong></a>
-</p>
+## Maigret
 
-### Merged upstream
+<a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/maigret-case-study-mobile.svg">
+    <img src="./assets/maigret-case-study.svg" width="100%" alt="Maigret: 10 merged contributions. Shared Mastodon lookup engine covering 79 instances. Less noise, stronger evidence.">
+  </picture>
+</a>
 
-<p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="44 verified upstream merges as of September 11, 2026" src="https://img.shields.io/badge/UPSTREAM-44_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=071009&amp;labelColor=071009"></a>
-  <img alt="16 upstream repositories represented in the ledger" src="https://img.shields.io/badge/REPOSITORIES-16-9aa8ff?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=071009">
-</p>
+### From isolated fixes to a shared detection engine
 
-**44 verified merges across 16 upstream repositories.** Snapshot: **2026-09-11**. Every PR counted below was checked for merged status and authorship; repositories under my own account are excluded.
-
-The common thread: make tools more trustworthy where people actually use them. These are selected contributions, with the complete snapshot linked below.
+A profile page returning `200 OK` is not enough evidence that an account exists. Anti-bot pages, rate limits, and stale absence messages can all look like a match. My Maigret contributions address that uncertainty across **detection, site onboarding, report compatibility, and test reliability**.
 
 <table>
   <tr>
-    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret · ten merged contributions"></a></td>
-    <td><strong>Maigret · ten merged contributions</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — Built a shared Mastodon lookup engine covering 79 instances, reduced false positives, restored XMind compatibility, and improved status-code detection when submitting new sites.<br>
-      <sub>Python · OSINT · HTTP evidence · report compatibility</sub>
+    <td width="50%" valign="top">
+      <samp>01 / SHARED ENGINE</samp>
+      <h3>79 instances. One lookup strategy.</h3>
+      <p>Replaced per-site Mastodon probe copies with a shared engine using <code>accounts/lookup</code>. Moved 79 confirmed instances onto it and corrected the <code>mastodon.social</code> base URL.</p>
+      <a href="https://github.com/soxoj/maigret/pull/3121"><strong>Inspect the engine → #3121</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <samp>02 / SIGNAL QUALITY</samp>
+      <h3>Stop reporting ghosts.</h3>
+      <p>Fixed misleading checks in InterPals, ReverbNation, and Mastodon; disabled a forum probe whose rate-limit responses could turn arbitrary usernames into matches.</p>
+      <a href="https://github.com/soxoj/maigret/pull/2442">#2442</a> &nbsp;·&nbsp; <a href="https://github.com/soxoj/maigret/pull/2588">#2588</a> &nbsp;·&nbsp; <a href="https://github.com/soxoj/maigret/pull/2929">#2929</a> &nbsp;·&nbsp; <a href="https://github.com/soxoj/maigret/pull/3111">#3111</a>
     </td>
   </tr>
   <tr>
-    <td width="72" align="center"><a href="https://github.com/palantir/blueprint"><img src="https://github.com/palantir.png?size=112" width="56" height="56" loading="lazy" alt="Palantir · Blueprint"></a></td>
-    <td><strong>Palantir · Blueprint</strong><br>
-      <a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165</code></a> — Closed an ESLint blind spot: deprecated React components are detected even when imported under aliases.<br>
-      <sub>TypeScript · React · static analysis</sub>
+    <td width="50%" valign="top">
+      <samp>03 / REPORT INTEGRITY</samp>
+      <h3>Protect the exported evidence.</h3>
+      <p>Added the manifest expected by modern XMind readers while retaining the legacy XML format. Atomic archive rewriting preserves metadata and validates integrity before replacement.</p>
+      <a href="https://github.com/soxoj/maigret/pull/2930"><strong>Inspect the export fix → #2930</strong></a>
     </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/getsentry/sentry-python"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry · Python SDK"></a></td>
-    <td><strong>Sentry · Python SDK</strong><br>
-      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241</code></a> — Added an option to remove scrubbed user IP addresses, avoiding invalid placeholder values while preserving the default SDK behavior.<br>
-      <sub>Python · privacy controls · backward compatibility</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP · Agent Security Regression Harness"></a></td>
-    <td><strong>OWASP · Agent Security Regression Harness</strong><br>
-      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149</code></a> — Added repeatable headers for live HTTP targets, enabling authenticated tests without copying those headers into scenario payloads, traces, or result JSON.<br>
-      <sub>Python · agent security · authenticated testing</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/mitmproxy/mitmproxy"><img src="https://github.com/mitmproxy.png?size=112" width="56" height="56" loading="lazy" alt="mitmproxy · reliable traffic inspection"></a></td>
-    <td><strong>mitmproxy · reliable traffic inspection</strong><br>
-      <a href="https://github.com/mitmproxy/mitmproxy/pull/8196"><code>#8196</code></a> · <a href="https://github.com/mitmproxy/mitmproxy/pull/8405"><code>#8405</code></a> — Fixed a crash on short binary payload tails and normalized Windows line endings in CSS and XML/HTML prettifiers.<br>
-      <sub>Python · network tooling · cross-platform behavior</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/google-labs-code/design.md"><img src="https://github.com/google-labs-code.png?size=112" width="56" height="56" loading="lazy" alt="Google Labs · design.md"></a></td>
-    <td><strong>Google Labs · design.md</strong><br>
-      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131</code></a> — Made primitive types render from specification configuration so generated design specs follow their source data.<br>
-      <sub>TypeScript · design tooling · specification generation</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/kellyjonbrazil/jc"><img src="https://github.com/kellyjonbrazil.png?size=112" width="56" height="56" loading="lazy" alt="jc · structured data, fewer edge cases"></a></td>
-    <td><strong>jc · structured data, fewer edge cases</strong><br>
-      <a href="https://github.com/kellyjonbrazil/jc/pull/692"><code>#692</code></a> · <a href="https://github.com/kellyjonbrazil/jc/pull/722"><code>#722</code></a> · <a href="https://github.com/kellyjonbrazil/jc/pull/741"><code>#741</code></a> — Fixed hexadecimal netmask parsing, preserved bracketed and empty shell scalars, and repaired version tests in Debian-style build trees.<br>
-      <sub>Python · parsers · packaging compatibility</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><img src="https://github.com/mukul975.png?size=112" width="56" height="56" loading="lazy" alt="Cybersecurity Skills · community fieldwork"></a></td>
-    <td><strong>Cybersecurity Skills · community fieldwork</strong><br>
-      <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/11"><code>#11</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/26"><code>#26</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/28"><code>#28</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/29"><code>#29</code></a> — Contributed OSINT correlation guidance, MITRE ATT&amp;CK mappings, metadata validation, and Zeek-based investigation workflows. Eight merged PRs also cover AWS Detective, forensics examples, NIST mappings, and Spanish translations.<br>
-      <sub>Independent community project · security automation · documentation</sub>
+    <td width="50%" valign="top">
+      <samp>04 / MAINTAINABILITY</samp>
+      <h3>Teach the tool what to trust.</h3>
+      <p>Preserved status-code evidence in site submission, expanded cybersecurity platform coverage, and adjusted executor timing tests for slower CI environments.</p>
+      <a href="https://github.com/soxoj/maigret/pull/3024">#3024</a> &nbsp;·&nbsp; <a href="https://github.com/soxoj/maigret/pull/2318">#2318</a> &nbsp;·&nbsp; <a href="https://github.com/soxoj/maigret/pull/2558">#2558</a>
     </td>
   </tr>
 </table>
 
-### Contribution ledger
+<details>
+<summary><strong>Read the engineering notes</strong> · decisions and verification behind the contributions</summary>
+
+- **Mastodon engine · [#3121](https://github.com/soxoj/maigret/pull/3121):** confirmed hosts through instance metadata; inherited engine fields live inside the site configuration; tests cover inheritance and excluded lookalikes.
+- **XMind archives · [#2930](https://github.com/soxoj/maigret/pull/2930):** regression coverage includes manifest completeness, ZIP integrity, Unicode, idempotence, metadata preservation, and failure cleanup. The PR reports seven focused tests passing; desktop-reader verification remained a reviewer check.
+- **Site submission · [#3024](https://github.com/soxoj/maigret/pull/3024):** a claimed 2xx response and unclaimed non-2xx response create a status-code check; message matching remains the fallback.
+- **CI timing · [#2558](https://github.com/soxoj/maigret/pull/2558):** relaxed upper bounds while retaining lower bounds that check concurrent execution.
+- **Documentation · [#2779](https://github.com/soxoj/maigret/pull/2779):** scoped spelling cleanup, included in the ten merged PRs.
+
+</details>
+
+<p>
+  <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img src="https://img.shields.io/badge/MAIGRET-10_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=0a140e" alt="View 10 merged Maigret PRs as of September 11, 2026"></a>
+  <a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Aopen"><img src="https://img.shields.io/badge/NEXT-OPEN_CONTRIBUTIONS-9aa8ff?style=for-the-badge&amp;labelColor=0a140e" alt="Follow open Maigret contributions"></a>
+</p>
+
+<br>
+
+## Selected upstream
+
+**The same engineering habits, across different systems.** A selection from **44 verified merges in 16 upstream repositories**, including the ten Maigret contributions above.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/palantir/blueprint/pull/8165"><img src="https://github.com/palantir.png?size=80" width="32" height="32" alt="Palantir / Blueprint"></a>
+      <h3>Palantir / Blueprint</h3>
+      <strong>Catch what aliases hide.</strong>
+      <p>Deprecated React components stay visible to ESLint, even under a different import name.</p>
+      <sub>TypeScript · static analysis</sub><br><br>
+      <a href="https://github.com/palantir/blueprint/pull/8165"><strong>View merged contribution ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><img src="https://github.com/getsentry.png?size=80" width="32" height="32" alt="Sentry / Python SDK"></a>
+      <h3>Sentry / Python SDK</h3>
+      <strong>Privacy with a precise switch.</strong>
+      <p>An opt-in scrubber control removes user IP addresses while preserving default behavior.</p>
+      <sub>Python · SDK design</sub><br><br>
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><strong>View merged contribution ↗</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><img src="https://github.com/OWASP.png?size=80" width="32" height="32" alt="OWASP / Agent Harness"></a>
+      <h3>OWASP / Agent Harness</h3>
+      <strong>Test the authenticated path.</strong>
+      <p>Live HTTP headers enable authenticated agent testing without entering result artifacts.</p>
+      <sub>Python · agent security</sub><br><br>
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><strong>View merged contribution ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/mitmproxy/mitmproxy/pull/8405"><img src="https://github.com/mitmproxy.png?size=80" width="32" height="32" alt="mitmproxy"></a>
+      <h3>mitmproxy</h3>
+      <strong>Make edge cases uneventful.</strong>
+      <p>Windows line-ending normalization, plus a separate fix for short binary payload crashes.</p>
+      <sub>Python · traffic inspection</sub><br><br>
+      <a href="https://github.com/mitmproxy/mitmproxy/pull/8405"><strong>View merged contribution ↗</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><img src="https://github.com/google-labs-code.png?size=80" width="32" height="32" alt="Google Labs / design.md"></a>
+      <h3>Google Labs / design.md</h3>
+      <strong>Keep the spec in charge.</strong>
+      <p>Primitive types render from configuration, keeping generated specs aligned with source data.</p>
+      <sub>TypeScript · design tools</sub><br><br>
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><strong>View merged contribution ↗</strong></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kellyjonbrazil/jc/pull/722"><img src="https://github.com/kellyjonbrazil.png?size=80" width="32" height="32" alt="jc / CLI data tooling"></a>
+      <h3>jc / CLI data tooling</h3>
+      <strong>Preserve what the input says.</strong>
+      <p>Empty and bracketed scalars survive parsing, alongside netmask and packaging fixes.</p>
+      <sub>Python · parsers</sub><br><br>
+      <a href="https://github.com/kellyjonbrazil/jc/pull/722"><strong>View merged contribution ↗</strong></a>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Security fieldwork, infrastructure &amp; developer experience</strong></summary>
+
+- **[Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged)** — eight merged contributions covering OSINT correlation, metadata validation, MITRE ATT&amp;CK and NIST mappings, AWS Detective, Zeek workflows, forensics examples, and Spanish translations. Independent community project.
+- **[Texas Instruments](https://github.com/TexasInstruments/open-pru/pull/139)** — portable assembly include-path guidance, plus Android documentation formatting and spelling fixes.
+- **[Locust](https://github.com/locustio/locust/pull/3384)** — corrected aggregate request-rate reporting.
+- **[Glances](https://github.com/nicolargo/glances/pull/3505)** — bounded memory calculations for LXC containers.
+- **Aqua Security / Trivy** and **Zeek** — documentation corrections, linked in the complete ledger.
+
+</details>
+
+<br>
+
+## Contribution ledger
 
 <details>
 <summary><strong>Open all 44 receipts</strong> · code, tests, documentation, and translations across 16 repositories</summary>
@@ -214,7 +270,11 @@ The Anthropic-Cybersecurity-Skills repository is an **independent community proj
 
 </details>
 
-### On the workbench
+
+
+<br>
+
+## On the workbench
 
 Selected proposals **open as of 2026-09-11**. Follow each PR for its current review status.
 
@@ -226,7 +286,11 @@ Selected proposals **open as of 2026-09-11**. Follow each PR for its current rev
 
 [Explore the current upstream workbench →](https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Aopen+-user%3Ajuliosuas)
 
-### Working stack
+
+
+<br>
+
+## Working stack
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-0b1710?style=flat-square&amp;logo=python&amp;logoColor=63ff86">
@@ -239,32 +303,41 @@ Selected proposals **open as of 2026-09-11**. Follow each PR for its current rev
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-0b1710?style=flat-square&amp;logo=githubactions&amp;logoColor=63ff86">
 </p>
 
+
+
 <details>
-<summary><strong>How I ship with agents</strong></summary>
+<summary><strong>Operating system</strong> · how I turn a problem into a contribution</summary>
 
-I run a multi-agent engineering loop with explicit ownership:
+```text
+REPRODUCE   → capture the failure
+ISOLATE     → narrow the cause
+PATCH       → change the smallest useful surface
+VERIFY      → test the behavior and its boundaries
+REVIEW      → make the reasoning inspectable
+SHIP        → link the accepted result
+```
 
-1. **Jeffrey** orchestrates scope, implementation, and delivery.
-2. **Magno** handles infrastructure and heavy build/test workloads.
-3. **Ludwig** is the senior engineering and QA gate.
-4. Every non-trivial claim closes with evidence: tests, CI, review state, and a precise remaining risk.
+I use agents with explicit ownership for implementation, infrastructure, and QA. The output I care about is reviewable software with evidence attached.
 
-The goal is not “AI wrote code.” The goal is reliable software with a shorter path from intent to proof.
 </details>
 
 <details>
-<summary><strong>Open the operator terminal</strong></summary>
+<summary><strong>Open the original operator terminal</strong></summary>
 
 <p align="center">
   <img src="./assets/terminal-profile.png" width="100%" alt="Julio Suastegui operator terminal">
 </p>
+
 </details>
 
-<p align="center">
-  <img src="./assets/contribution-grid.png" width="100%" alt="GitHub contribution calendar">
-</p>
+<br>
 
 <p align="center">
-  <strong>Build the system. Test the claim. Ship the evidence.</strong><br>
-  <a href="https://github.com/juliosuas/ghost">flagship project</a> · <a href="https://github.com/juliosuas?tab=repositories">repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">pull requests</a>
+  <samp>BUILT IN MEXICO CITY · VERIFIED IN PUBLIC</samp><br><br>
+  <strong>Build the system. Test the claim. Ship the evidence.</strong><br><br>
+  <a href="https://github.com/juliosuas/ghost">ghost</a> &nbsp; / &nbsp;
+  <a href="https://github.com/juliosuas?tab=repositories">projects</a> &nbsp; / &nbsp;
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">all pull requests</a>
 </p>
+
+<p align="center"><sub>Contribution snapshot verified 2026-09-11. Counts exclude repositories under my own account; PR links show current status.</sub></p>
