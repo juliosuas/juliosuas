@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Maigret — less noise, stronger evidence.</title><desc id="desc">Featured upstream contribution. Ten merged pull requests. Shared Mastodon engine for 79 instances, false-positive fixes, XMind export compatibility and better site submission.</desc>
+<defs><pattern id="lines" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8L8 0" stroke="#63ff86" stroke-opacity=".035"/></pattern></defs>
+<rect width="100%" height="100%" rx="20" fill="#0a140e"/><rect width="100%" height="100%" rx="20" fill="url(#lines)"/><rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#3a6246"/>
+<rect x="0" y="30" width="5" height="90" fill="#63ff86"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="40" y="49" fill="#8aac95" font-family="monospace" font-size="16" letter-spacing="2">01 / FEATURED UPSTREAM</text>
+<text x="35" y="147" font-size="98" fill="#effcf2" font-weight="700" letter-spacing="-4">MAIGRET</text>
+<text x="40" y="199" font-size="29" fill="#63ff86">Less noise. Stronger evidence.</text>
+<text x="40" y="242" font-size="21" fill="#a3b6a8">OSINT reliability, from detection to export.</text>
+<path d="M710 76V279" stroke="#36513f"/><text x="765" y="167" fill="#63ff86" font-size="77" font-weight="700">10</text><text x="965" y="167" fill="#effcf2" font-size="77" font-weight="700">79</text><g font-family="monospace" font-size="14" fill="#9ab7a3"><text x="765" y="203">MERGED PRs</text><text x="965" y="203">MASTODON</text><text x="965" y="224">INSTANCES</text></g><text x="40" y="313" font-size="14" fill="#7e9e88" font-family="monospace" letter-spacing="1">CONTRIBUTOR: JULIOSUAS</text><text x="765" y="313" font-size="14" fill="#7e9e88" font-family="monospace">VERIFIED / 2026-09-11</text>
+</g></svg>
