@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Julio Suastegui — intelligence systems builder">
+  <img src="./assets/profile-hero.svg" width="100%" alt="Julio Suastegui — OSINT and security tooling">
 </p>
 
 <p align="center">
@@ -8,31 +8,26 @@
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
 
-I build **agentic engineering systems, security tooling, and product operations** that turn ambiguous work into tested, reviewable software. My current obsession is making autonomous development accountable: narrow diffs, reproducible evidence, hard QA gates, and useful products at the end.
+I'm Julio, a developer based in Mexico City. I work on **OSINT tools, cybersecurity, and AI agents**, mostly with Python and TypeScript.
 
-Based in Mexico City. Working in public across AI agents, developer tooling, OSINT, cybersecurity, and automation.
+I contribute regularly to [Maigret](https://github.com/soxoj/maigret), where I've worked on account detection, false positives, and report exports. I also build [ghost](https://github.com/juliosuas/ghost), an OSINT investigation tool.
 
-### Merged upstream · strongest impact first
+### Selected contributions
 
-<p>
-  <img alt="Merged work" src="https://img.shields.io/badge/UPSTREAM-MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=071009&amp;labelColor=071009">
-  <img alt="Evidence linked" src="https://img.shields.io/badge/EVIDENCE-CLICK_EVERY_RECEIPT-9aa8ff?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=071009">
-</p>
-
-Contributions to open-source projects, with sustained work in Maigret first and every merged PR linked below. **44 verified merges across 16 upstream repositories**, as of **2026-09-11**.
+44 merged PRs across 16 repositories as of September 11, 2026. Ten are in Maigret.
 
 <table>
   <tr>
-    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret · ten merged contributions"></a></td>
-    <td><strong>Maigret · ten merged contributions</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — Built a shared Mastodon lookup engine covering 79 instances, reduced false positives, restored XMind compatibility, and improved status-code detection when submitting new sites.<br>
+    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret · 10 merged PRs"></a></td>
+    <td><strong>Maigret · 10 merged PRs</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — Added a shared Mastodon lookup engine for 79 instances, fixed false-positive checks, added the manifest needed by modern XMind readers, and improved status-code detection in site submission.<br>
       <sub>Python · OSINT · HTTP evidence · report compatibility</sub>
     </td>
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/palantir/blueprint"><img src="https://github.com/palantir.png?size=112" width="56" height="56" loading="lazy" alt="Palantir · Blueprint"></a></td>
     <td><strong>Palantir · Blueprint</strong><br>
-      <a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165</code></a> — Closed an ESLint blind spot: deprecated React components are detected even when imported under aliases.<br>
+      <a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165</code></a> — Fixed the ESLint rule so it detects deprecated React components imported under aliases.<br>
       <sub>TypeScript · React · static analysis</sub>
     </td>
   </tr>
@@ -41,22 +36,22 @@ Contributions to open-source projects, with sustained work in Maigret first and 
       <a href="https://github.com/TexasInstruments/open-pru/pull/139"><img src="https://github.com/TexasInstruments.png?size=112" width="56" height="56" loading="lazy" alt="Texas Instruments logo"></a>
     </td>
     <td>
-      <strong>Texas Instruments · embedded developer tooling</strong><br>
-      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><code>open-pru #139 MERGED</code></a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720"><code>processor-sdk-doc #720 MERGED</code></a> — documented portable assembly include paths and normalized Android SDK documentation formatting.<br>
+      <strong>Texas Instruments · PRU and Android docs</strong><br>
+      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><code>open-pru #139</code></a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720"><code>processor-sdk-doc #720</code></a> — documented portable assembly include paths and normalized Android SDK documentation formatting.<br>
       <sub>Embedded systems · assembly toolchains · Linux/Android documentation</sub>
     </td>
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/getsentry/sentry-python"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry · Python SDK"></a></td>
     <td><strong>Sentry · Python SDK</strong><br>
-      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241</code></a> — Added an option to remove scrubbed user IP addresses, avoiding invalid placeholder values while preserving the default SDK behavior.<br>
+      <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241</code></a> — Added an option to drop scrubbed user IP addresses instead of sending an invalid placeholder value.<br>
       <sub>Python · privacy controls · backward compatibility</sub>
     </td>
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP · Agent Security Regression Harness"></a></td>
     <td><strong>OWASP · Agent Security Regression Harness</strong><br>
-      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149</code></a> — Added repeatable headers for live HTTP targets, enabling authenticated tests without copying those headers into scenario payloads, traces, or result JSON.<br>
+      <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149</code></a> — Added custom headers for authenticated HTTP tests. Headers stay out of scenario payloads, traces, and result JSON.<br>
       <sub>Python · agent security · authenticated testing</sub>
     </td>
   </tr>
@@ -66,26 +61,26 @@ Contributions to open-source projects, with sustained work in Maigret first and 
     </td>
     <td>
       <strong>Aqua Security · Trivy</strong><br>
-      <a href="https://github.com/aquasecurity/trivy/pull/10828"><code>#10828 MERGED</code></a> · <a href="https://github.com/aquasecurity/trivy/pull/10857"><code>#10857 MERGED</code></a> — corrected spelling and wording in Trivy documentation.<br>
+      <a href="https://github.com/aquasecurity/trivy/pull/10828"><code>#10828</code></a> · <a href="https://github.com/aquasecurity/trivy/pull/10857"><code>#10857</code></a> — corrected spelling and wording in Trivy documentation.<br>
       <sub>Security tooling · documentation</sub>
     </td>
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/google-labs-code/design.md"><img src="https://github.com/google-labs-code.png?size=112" width="56" height="56" loading="lazy" alt="Google Labs · design.md"></a></td>
     <td><strong>Google Labs · design.md</strong><br>
-      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131</code></a> — Made primitive types render from specification configuration so generated design specs follow their source data.<br>
+      <a href="https://github.com/google-labs-code/design.md/pull/131"><code>#131</code></a> — Moved primitive type definitions into spec-config.yaml and rendered them through the spec generator.<br>
       <sub>TypeScript · design tooling · specification generation</sub>
     </td>
   </tr>
 </table>
 
-### Contribution ledger
+### All merged PRs
 
 <details>
-<summary><strong>Open all 44 receipts</strong> · code, tests, documentation, and translations across 16 repositories</summary>
+<summary><strong>44 merged PRs · full list</strong></summary>
 <br>
 
-The original PR titles make each change's scope visible. Counts describe the linked snapshot; current activity is available in the <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">live merged-PR search</a>.
+As of September 11, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
@@ -184,21 +179,11 @@ The original PR titles make each change's scope visible. Counts describe the lin
 </table>
 </details>
 
-<details>
-<summary><strong>Field notes</strong> · what connects the work</summary>
+<sub>Anthropic-Cybersecurity-Skills is an independent community project.</sub>
 
-- **Evidence quality** — distinguish missing profiles from redirects, rate limits, and pages that return HTTP 200 for everyone.
-- **Boundary behavior** — test short payloads, empty scalars, aliased imports, Windows line endings, and container memory accounting.
-- **Useful security tooling** — make authenticated agent tests, privacy controls, investigation workflows, and metadata validation practical.
-- **Maintenance is part of delivery** — portable assembly guidance, corrected documentation, packaging tests, and Spanish translations belong in the record too.
+### Open PRs
 
-The Anthropic-Cybersecurity-Skills repository is an **independent community project**, not an official Anthropic project. Its eight merged contributions are listed above; closed, unmerged proposals are excluded from the count.
-
-</details>
-
-### On the workbench
-
-Selected proposals **open as of 2026-09-11**. Follow each PR for its current review status.
+Selected PRs open as of September 11, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
@@ -206,9 +191,9 @@ Selected proposals **open as of 2026-09-11**. Follow each PR for its current rev
 | [PyPA · Hatch #2405](https://github.com/pypa/hatch/pull/2405) | Support free-threaded Python aliases such as `3.13t` and `3.14t`. | Open |
 | [Cloudflare · moq-rs #219](https://github.com/cloudflare/moq-rs/pull/219) | Clarify support for MoQ draft branches. | Open |
 
-[Explore the current upstream workbench →](https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Aopen+-user%3Ajuliosuas)
+[All open PRs](https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Aopen+-user%3Ajuliosuas)
 
-### Working stack
+### Languages and tools
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-0b1710?style=flat-square&amp;logo=python&amp;logoColor=63ff86">
@@ -220,19 +205,6 @@ Selected proposals **open as of 2026-09-11**. Follow each PR for its current rev
   <img alt="Docker" src="https://img.shields.io/badge/Docker-0b1710?style=flat-square&amp;logo=docker&amp;logoColor=63ff86">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-0b1710?style=flat-square&amp;logo=githubactions&amp;logoColor=63ff86">
 </p>
-
-<details>
-<summary><strong>How I ship with agents</strong></summary>
-
-I run a multi-agent engineering loop with explicit ownership:
-
-1. **Jeffrey** orchestrates scope, implementation, and delivery.
-2. **Magno** handles infrastructure and heavy build/test workloads.
-3. **Ludwig** is the senior engineering and QA gate.
-4. Every non-trivial claim closes with evidence: tests, CI, review state, and a precise remaining risk.
-
-The goal is not “AI wrote code.” The goal is reliable software with a shorter path from intent to proof.
-</details>
 
 <details>
 <summary><strong>Open the operator terminal</strong></summary>
@@ -247,6 +219,5 @@ The goal is not “AI wrote code.” The goal is reliable software with a shorte
 </p>
 
 <p align="center">
-  <strong>Build the system. Test the claim. Ship the evidence.</strong><br>
-  <a href="https://github.com/juliosuas/ghost">flagship project</a> · <a href="https://github.com/juliosuas?tab=repositories">repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">pull requests</a>
+  <a href="https://github.com/juliosuas/ghost">ghost</a> · <a href="https://github.com/juliosuas?tab=repositories">repositories</a> · <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">pull requests</a>
 </p>
