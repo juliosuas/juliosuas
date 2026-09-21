@@ -1,3 +1,5 @@
+<!-- Snapshot of profile README before Security/OSINT Engineer bio merge. Restore if preferred. -->
+
 <p align="center">
   <img src="./assets/profile-hero.svg" width="100%" alt="Julio Suastegui — OSINT and security tooling">
 </p>
@@ -8,52 +10,13 @@
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
 
-# Julio Suástegui
+I'm Julio, a developer based in Mexico City. I work on **OSINT tools, cybersecurity, and AI agents**, mostly with Python and TypeScript.
 
-**Security / OSINT Engineer — Mexico City**
-
-I build security tooling and contribute upstream to open-source Python and TypeScript projects.
-
-**Currently focused on**
-
-- OSINT tooling
-- AI/agent security
-- Python security infrastructure
-
-**Selected upstream work**
-
-<table>
-  <tr>
-    <td width="120"><a href="https://github.com/getsentry/sentry-python"><strong>Sentry</strong></a></td>
-    <td><a href="https://github.com/getsentry/sentry-python/pull/6241">Privacy controls</a> in sentry-python</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/palantir/blueprint"><strong>Palantir</strong></a></td>
-    <td><a href="https://github.com/palantir/blueprint/pull/8165">Static-analysis fix</a> in Blueprint</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><strong>OWASP</strong></a></td>
-    <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149">Authenticated agent-security testing</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/soxoj/maigret"><strong>Maigret</strong></a></td>
-    <td><a href="#selected-contributions">14 merged contributions</a> to OSINT detection</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/locustio/locust"><strong>Locust</strong></a></td>
-    <td><a href="https://github.com/locustio/locust/pull/3384">Runtime statistics bug fix</a></td>
-  </tr>
-</table>
-
-48 merged PRs across 16 upstream repositories.
-
-**Selected projects**
-
-[ghost](https://github.com/juliosuas/ghost) · [copyfail-guard](https://github.com/juliosuas/copyfail-guard) · [AI Garden](https://github.com/juliosuas/ai-garden) · [VisionClaw](https://github.com/Intent-Lab/VisionClaw)
+I contribute regularly to [Maigret](https://github.com/soxoj/maigret), where I've worked on account detection, false positives, and report exports. I also build [ghost](https://github.com/juliosuas/ghost), an OSINT investigation tool.
 
 ### Selected contributions
 
-Fourteen of the 48 merged PRs are in Maigret. Counts as of September 21, 2026.
+48 merged PRs across 16 repositories as of September 21, 2026. Fourteen are in Maigret.
 
 <table>
   <tr>
