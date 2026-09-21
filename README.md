@@ -24,22 +24,27 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 
 <table>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/getsentry/sentry-python"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry"></a></td>
     <td width="120"><a href="https://github.com/getsentry/sentry-python"><strong>Sentry</strong></a></td>
     <td><a href="https://github.com/getsentry/sentry-python/pull/6241">Privacy controls</a> in sentry-python</td>
   </tr>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/palantir/blueprint"><img src="https://github.com/palantir.png?size=112" width="56" height="56" loading="lazy" alt="Palantir"></a></td>
     <td><a href="https://github.com/palantir/blueprint"><strong>Palantir</strong></a></td>
     <td><a href="https://github.com/palantir/blueprint/pull/8165">Static-analysis fix</a> in Blueprint</td>
   </tr>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP"></a></td>
     <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><strong>OWASP</strong></a></td>
     <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149">Authenticated agent-security testing</a></td>
   </tr>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret"></a></td>
     <td><a href="https://github.com/soxoj/maigret"><strong>Maigret</strong></a></td>
     <td><a href="#selected-contributions">14 merged contributions</a> to OSINT detection</td>
   </tr>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/locustio/locust"><img src="https://github.com/locustio.png?size=112" width="56" height="56" loading="lazy" alt="Locust"></a></td>
     <td><a href="https://github.com/locustio/locust"><strong>Locust</strong></a></td>
     <td><a href="https://github.com/locustio/locust/pull/3384">Runtime statistics bug fix</a></td>
   </tr>
