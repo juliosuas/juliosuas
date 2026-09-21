@@ -14,13 +14,13 @@ I contribute regularly to [Maigret](https://github.com/soxoj/maigret), where I'v
 
 ### Selected contributions
 
-44 merged PRs across 16 repositories as of September 11, 2026. Ten are in Maigret.
+48 merged PRs across 16 repositories as of September 21, 2026. Fourteen are in Maigret.
 
 <table>
   <tr>
-    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret · 10 merged PRs"></a></td>
-    <td><strong>Maigret · 10 merged PRs</strong><br>
-      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> — Added a shared Mastodon lookup engine for 79 instances, fixed false-positive checks, added the manifest needed by modern XMind readers, and improved status-code detection in site submission.<br>
+    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret · 14 merged PRs"></a></td>
+    <td><strong>Maigret · 14 merged PRs</strong><br>
+      <a href="https://github.com/soxoj/maigret/pull/3128"><code>#3128</code></a> · <a href="https://github.com/soxoj/maigret/pull/3131"><code>#3131</code></a> · <a href="https://github.com/soxoj/maigret/pull/3133"><code>#3133</code></a> · <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> · <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> — Added a shared Mastodon lookup engine, disabled false-positive sites, fixed remaining false-positive checks, added the manifest needed by modern XMind readers, and improved status-code detection in site submission.<br>
       <sub>Python · OSINT · HTTP evidence · report compatibility</sub>
     </td>
   </tr>
@@ -77,15 +77,15 @@ I contribute regularly to [Maigret](https://github.com/soxoj/maigret), where I'v
 ### All merged PRs
 
 <details>
-<summary><strong>44 merged PRs · full list</strong></summary>
+<summary><strong>48 merged PRs · full list</strong></summary>
 <br>
 
-As of September 11, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
+As of September 21, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
   <tr>
-    <td><a href="https://github.com/soxoj/maigret"><strong>soxoj/maigret</strong></a><br><sub>10 merged</sub></td>
+    <td><a href="https://github.com/soxoj/maigret"><strong>soxoj/maigret</strong></a><br><sub>14 merged</sub></td>
     <td><a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> feat: add cybersecurity platforms + re-enable Root-Me<br>
       <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> fix(data): update InterPals absence string to match current site response<br>
       <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> test: loosen executor timing upper bounds for slower CI<br>
@@ -95,7 +95,11 @@ As of September 11, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Aj
       <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> Fix XMind reports for modern readers<br>
       <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> Detect status-code checks in --submit fallback<br>
       <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> Fix social.tchncs.de false-positive check<br>
-      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> Add shared Mastodon engine with accounts/lookup urlProbe</td>
+      <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> Add shared Mastodon engine with accounts/lookup urlProbe<br>
+      <a href="https://github.com/soxoj/maigret/pull/3128"><code>#3128</code></a> Disable Jigidi false-positive site<br>
+      <a href="https://github.com/soxoj/maigret/pull/3131"><code>#3131</code></a> Disable WikimapiaSearch false-positive site<br>
+      <a href="https://github.com/soxoj/maigret/pull/3133"><code>#3133</code></a> Disable Comedy false-positive site<br>
+      <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> Disable Southklad false-positive site</td>
   </tr>
   <tr>
     <td><a href="https://github.com/mitmproxy/mitmproxy"><strong>mitmproxy/mitmproxy</strong></a><br><sub>3 merged</sub></td>
@@ -183,13 +187,13 @@ As of September 11, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Aj
 
 ### Open PRs
 
-Selected PRs open as of September 11, 2026.
+Selected PRs open as of September 21, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
 | [Nmap #3458](https://github.com/nmap/nmap/pull/3458) | Clarify the IPv6 protocol-family context in packet-trace output. | Open |
 | [PyPA · Hatch #2405](https://github.com/pypa/hatch/pull/2405) | Support free-threaded Python aliases such as `3.13t` and `3.14t`. | Open |
-| [Cloudflare · moq-rs #219](https://github.com/cloudflare/moq-rs/pull/219) | Clarify support for MoQ draft branches. | Open |
+| [Maigret #3100](https://github.com/soxoj/maigret/pull/3100) · [#3175](https://github.com/soxoj/maigret/pull/3175) | Fifteen false-positive disable/fix PRs still open and mergeable. | Open |
 
 [All open PRs](https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Aopen+-user%3Ajuliosuas)
 
