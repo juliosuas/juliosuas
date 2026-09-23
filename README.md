@@ -22,42 +22,6 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 
 **Selected upstream work**
 
-<table>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/getsentry/sentry-python"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry"></a></td>
-    <td width="120"><a href="https://github.com/getsentry/sentry-python"><strong>Sentry</strong></a></td>
-    <td><a href="https://github.com/getsentry/sentry-python/pull/6241">Privacy controls</a> in sentry-python</td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/palantir/blueprint"><img src="https://github.com/palantir.png?size=112" width="56" height="56" loading="lazy" alt="Palantir"></a></td>
-    <td><a href="https://github.com/palantir/blueprint"><strong>Palantir</strong></a></td>
-    <td><a href="https://github.com/palantir/blueprint/pull/8165">Static-analysis fix</a> in Blueprint</td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><img src="https://github.com/OWASP.png?size=112" width="56" height="56" loading="lazy" alt="OWASP"></a></td>
-    <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness"><strong>OWASP</strong></a></td>
-    <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149">Authenticated agent-security testing</a></td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret"></a></td>
-    <td><a href="https://github.com/soxoj/maigret"><strong>Maigret</strong></a></td>
-    <td><a href="#selected-contributions">14 merged contributions</a> to OSINT detection</td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/locustio/locust"><img src="https://github.com/locustio.png?size=112" width="56" height="56" loading="lazy" alt="Locust"></a></td>
-    <td><a href="https://github.com/locustio/locust"><strong>Locust</strong></a></td>
-    <td><a href="https://github.com/locustio/locust/pull/3384">Runtime statistics bug fix</a></td>
-  </tr>
-</table>
-
-48 merged PRs across 16 upstream repositories.
-
-**Selected projects**
-
-[ghost](https://github.com/juliosuas/ghost) · [copyfail-guard](https://github.com/juliosuas/copyfail-guard) · [AI Garden](https://github.com/juliosuas/ai-garden) · [VisionClaw](https://github.com/Intent-Lab/VisionClaw)
-
-### Selected contributions
-
 Fourteen of the 48 merged PRs are in Maigret. Counts as of September 21, 2026.
 
 <table>
@@ -66,6 +30,13 @@ Fourteen of the 48 merged PRs are in Maigret. Counts as of September 21, 2026.
     <td><strong>Maigret · 14 merged PRs</strong><br>
       <a href="https://github.com/soxoj/maigret/pull/3128"><code>#3128</code></a> · <a href="https://github.com/soxoj/maigret/pull/3131"><code>#3131</code></a> · <a href="https://github.com/soxoj/maigret/pull/3133"><code>#3133</code></a> · <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> · <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3111"><code>#3111</code></a> — Added a shared Mastodon lookup engine, disabled false-positive sites, fixed remaining false-positive checks, added the manifest needed by modern XMind readers, and improved status-code detection in site submission.<br>
       <sub>Python · OSINT · HTTP evidence · report compatibility</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center"><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><img src="https://github.com/mukul975.png?size=112" width="56" height="56" loading="lazy" alt="Anthropic Cybersecurity Skills · 8 merged PRs"></a></td>
+    <td><strong>Anthropic Cybersecurity Skills · 8 merged PRs</strong><br>
+      <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/11"><code>#11</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/15"><code>#15</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/12"><code>#12</code></a> · <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/26"><code>#26</code></a> — Added an AI-driven OSINT correlation skill, working example output for digital-forensics skills, NIST CSF 2.0 categories on compliance skills, and MITRE ATT&amp;CK IDs on incident-response skills.<br>
+      <sub>Security skills · OSINT · forensics · compliance · independent community project</sub>
     </td>
   </tr>
   <tr>
@@ -117,6 +88,12 @@ Fourteen of the 48 merged PRs are in Maigret. Counts as of September 21, 2026.
     </td>
   </tr>
 </table>
+
+48 merged PRs across 16 upstream repositories.
+
+**Selected projects**
+
+[ghost](https://github.com/juliosuas/ghost) · [copyfail-guard](https://github.com/juliosuas/copyfail-guard) · [AI Garden](https://github.com/juliosuas/ai-garden) · [VisionClaw](https://github.com/Intent-Lab/VisionClaw)
 
 ### All merged PRs
 
@@ -253,14 +230,6 @@ Selected PRs open as of September 21, 2026.
   <img alt="Docker" src="https://img.shields.io/badge/Docker-0b1710?style=flat-square&amp;logo=docker&amp;logoColor=63ff86">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-0b1710?style=flat-square&amp;logo=githubactions&amp;logoColor=63ff86">
 </p>
-
-<details>
-<summary><strong>Open the operator terminal</strong></summary>
-
-<p align="center">
-  <img src="./assets/terminal-profile.png" width="100%" alt="Julio Suastegui operator terminal">
-</p>
-</details>
 
 <p align="center">
   <img src="./assets/contribution-grid.png" width="100%" alt="GitHub contribution calendar">
