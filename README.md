@@ -24,7 +24,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### Selected upstream work
 
 <p>
-  <strong>51</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 6, 2026</sub>
+  <strong>51</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 8, 2026</sub>
 </p>
 
 <table>
@@ -54,13 +54,6 @@ I build security tooling and contribute upstream to open-source Python and TypeS
     <td><strong>Palantir · Blueprint</strong> · 1 merged PR<br>
       <a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165</code></a> — Fixed the ESLint rule so it detects deprecated React components imported under aliases.<br>
       <sub>TypeScript · React · static analysis</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="72" align="center"><a href="https://github.com/TexasInstruments/open-pru"><img src="https://github.com/TexasInstruments.png?size=112" width="56" height="56" loading="lazy" alt="Texas Instruments logo"></a></td>
-    <td><strong>Texas Instruments · PRU and Android docs</strong> · 3 merged PRs<br>
-      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><code>open-pru #139</code></a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720"><code>processor-sdk-doc #720</code></a> — Documented portable assembly include paths and normalized Android SDK documentation formatting.<br>
-      <sub>Embedded systems · assembly toolchains · Linux/Android documentation</sub>
     </td>
   </tr>
   <tr>
@@ -108,7 +101,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <summary><strong>51 merged PRs across 16 upstream repositories · full list</strong></summary>
 <br>
 
-As of October 6, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
+As of October 8, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
@@ -218,13 +211,12 @@ As of October 6, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuli
 
 ### Open PRs
 
-Selected from 45 open upstream PRs as of October 6, 2026.
+Selected from 43 open upstream PRs as of October 8, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
 | [CycloneDX · cyclonedx-python #1106](https://github.com/CycloneDX/cyclonedx-python/pull/1106) | Add an `--isolated` option so environment SBOMs ignore the parent `PYTHONPATH`. | In review |
 | [Nous Research · Hermes Agent #121776](https://github.com/NousResearch/hermes-agent/pull/121776) | Make browser close-profile wait for exit and clear a stale `SingletonLock`. | In review |
-| [Texas Instruments · open-pru #166](https://github.com/TexasInstruments/open-pru/pull/166) · [#168](https://github.com/TexasInstruments/open-pru/pull/168) | Clarify PRU R30/R31 vs. SysConfig pad direction and add hardware/register documentation guidance. | In review |
 | [Nmap #3458](https://github.com/nmap/nmap/pull/3458) | Clarify the IPv6 protocol-family context in packet-trace output. | In review |
 | [PyPA · Hatch #2405](https://github.com/pypa/hatch/pull/2405) | Support free-threaded Python aliases such as `3.13t` and `3.14t`. | In review |
 | [Maigret · 13 open PRs](https://github.com/soxoj/maigret/pulls?q=is%3Apr+is%3Aopen+author%3Ajuliosuas) | False-positive site fixes and disables (CNET, InterPals, PCGamer, Coderwall, and more). | In review |
