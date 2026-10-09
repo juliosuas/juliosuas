@@ -57,6 +57,13 @@ I build security tooling and contribute upstream to open-source Python and TypeS
     </td>
   </tr>
   <tr>
+    <td width="72" align="center"><a href="https://github.com/TexasInstruments/open-pru"><img src="https://github.com/TexasInstruments.png?size=112" width="56" height="56" loading="lazy" alt="Texas Instruments logo"></a></td>
+    <td><strong>Texas Instruments · PRU and Android docs</strong> · 3 merged PRs<br>
+      <a href="https://github.com/TexasInstruments/open-pru/pull/139"><code>open-pru #139</code></a> · <a href="https://github.com/TexasInstruments/open-pru/pull/146"><code>open-pru #146</code></a> · <a href="https://github.com/TexasInstruments/processor-sdk-doc/pull/720"><code>processor-sdk-doc #720</code></a> — Documented portable assembly include paths, fixed typos in the open-pru docs, and normalized Android SDK documentation formatting.<br>
+      <sub>Embedded systems · assembly toolchains · Linux/Android documentation</sub>
+    </td>
+  </tr>
+  <tr>
     <td width="72" align="center"><a href="https://github.com/getsentry/sentry-python"><img src="https://github.com/getsentry.png?size=112" width="56" height="56" loading="lazy" alt="Sentry logo"></a></td>
     <td><strong>Sentry · Python SDK</strong> · 2 merged PRs<br>
       <a href="https://github.com/getsentry/sentry-python/pull/6241"><code>#6241</code></a> — Added an option to drop scrubbed user IP addresses instead of sending an invalid placeholder value.<br>
