@@ -5,7 +5,9 @@ ROOT="${0:A:h:h}"
 GREEN=$'\033[0;32m'
 RESET=$'\033[0m'
 
-clear
+if [[ -t 1 ]]; then
+  clear
+fi
 printf '%s' "$GREEN"
 
 printf 'Last login: Sat Jun  6 03:29:18 on ttys007\n'
