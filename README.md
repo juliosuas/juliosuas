@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="51 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-51_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="52 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-52_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
@@ -24,10 +24,17 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### Selected upstream work
 
 <p>
-  <strong>51</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 8, 2026</sub>
+  <strong>52</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 11, 2026</sub>
 </p>
 
 <table>
+  <tr>
+    <td width="72" align="center"><a href="https://github.com/microsoft/PyRIT"><img src="https://github.com/microsoft.png?size=112" width="56" height="56" loading="lazy" alt="Microsoft logo"></a></td>
+    <td><strong>Microsoft · PyRIT</strong> · 1 merged PR<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> — Built the dataset catalog for the PyRIT GUI: searchable cards, modality and harm-category filters, sorting, and a detail view (closes <a href="https://github.com/microsoft/PyRIT/issues/2747">#2747</a>).<br>
+      <sub>AI red teaming · TypeScript · React · accessibility</sub>
+    </td>
+  </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret logo"></a></td>
     <td><strong>Maigret</strong> · 16 merged PRs<br>
@@ -105,10 +112,10 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### All merged PRs
 
 <details>
-<summary><strong>51 merged PRs across 16 upstream repositories · full list</strong></summary>
+<summary><strong>52 merged PRs across 17 upstream repositories · full list</strong></summary>
 <br>
 
-As of October 8, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
+As of October 11, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
@@ -196,6 +203,10 @@ As of October 8, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuli
     <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149</code></a> feat: support live HTTP target headers</td>
   </tr>
   <tr>
+    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>1 merged</sub></td>
+    <td><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/palantir/blueprint"><strong>palantir/blueprint</strong></a><br><sub>1 merged</sub></td>
     <td><a href="https://github.com/palantir/blueprint/pull/8165"><code>#8165</code></a> [eslint-plugin] Detect deprecated components imported with aliases</td>
   </tr>
@@ -218,7 +229,7 @@ As of October 8, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuli
 
 ### Open PRs
 
-Selected from 43 open upstream PRs as of October 8, 2026.
+Selected from 43 open upstream PRs as of October 11, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
