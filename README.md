@@ -24,13 +24,14 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### Selected upstream work
 
 <p>
-  <strong>53</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 14, 2026</sub>
+  <strong>54</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 17, 2026</sub>
 </p>
 
 <table>
   <tr>
     <td width="72" align="center"><a href="https://github.com/microsoft/PyRIT"><img src="https://github.com/microsoft.png?size=112" width="56" height="56" loading="lazy" alt="Microsoft logo"></a></td>
-    <td><strong>Microsoft · PyRIT</strong> · 2 merged PRs<br>
+    <td><strong>Microsoft · PyRIT</strong> · 3 merged PRs<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> — Added lazy image, audio, and video previews to dataset details through a media component shared with chat, with signed media URLs from the backend (closes <a href="https://github.com/microsoft/PyRIT/issues/2749">#2749</a>).<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> — Added the dataset examples table and seed detail view, with server-side pagination and keyboard-accessible navigation (closes <a href="https://github.com/microsoft/PyRIT/issues/2745">#2745</a>).<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> — Built the dataset catalog for the PyRIT GUI: searchable cards, modality and harm-category filters, sorting, and a detail view (closes <a href="https://github.com/microsoft/PyRIT/issues/2747">#2747</a>).<br>
       <sub>AI red teaming · TypeScript · React · accessibility</sub>
@@ -113,7 +114,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### All merged PRs
 
 <details>
-<summary><strong>53 merged PRs across 17 upstream repositories · full list</strong></summary>
+<summary><strong>54 merged PRs across 17 upstream repositories · full list</strong></summary>
 <br>
 
 As of October 14, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
@@ -204,8 +205,8 @@ As of October 14, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
     <td><a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><code>#149</code></a> feat: support live HTTP target headers</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>2 merged</sub></td>
-    <td><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
+    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>3 merged</sub></td>
+    <td><a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> FEAT: Share image, audio, and video previews with dataset details<br><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
   </tr>
   <tr>
     <td><a href="https://github.com/palantir/blueprint"><strong>palantir/blueprint</strong></a><br><sub>1 merged</sub></td>
