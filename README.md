@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="53 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-53_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="54 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-54_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
@@ -14,12 +14,6 @@
 **Security / OSINT Engineer — Mexico City**
 
 I build security tooling and contribute upstream to open-source Python and TypeScript projects.
-
-### Currently focused on
-
-- **OSINT tooling** — account discovery, false-positive hunting, report formats
-- **AI/agent security** — regression testing for agent runtimes
-- **Python security infrastructure** — privacy controls, traffic inspection, SBOM tooling
 
 ### Selected upstream work
 
@@ -31,9 +25,9 @@ I build security tooling and contribute upstream to open-source Python and TypeS
   <tr>
     <td width="72" align="center"><a href="https://github.com/microsoft/PyRIT"><img src="https://github.com/microsoft.png?size=112" width="56" height="56" loading="lazy" alt="Microsoft logo"></a></td>
     <td><strong>Microsoft · PyRIT</strong> · 3 merged PRs<br>
-      <a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> — Added lazy image, audio, and video previews to dataset details through a media component shared with chat, with signed media URLs from the backend (closes <a href="https://github.com/microsoft/PyRIT/issues/2749">#2749</a>).<br>
-      <a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> — Added the dataset examples table and seed detail view, with server-side pagination and keyboard-accessible navigation (closes <a href="https://github.com/microsoft/PyRIT/issues/2745">#2745</a>).<br>
-      <a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> — Built the dataset catalog for the PyRIT GUI: searchable cards, modality and harm-category filters, sorting, and a detail view (closes <a href="https://github.com/microsoft/PyRIT/issues/2747">#2747</a>).<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> — Lazy image, audio, and video previews in dataset details (closes <a href="https://github.com/microsoft/PyRIT/issues/2749">#2749</a>)<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> — Dataset examples table and seed detail view, server-side pagination (closes <a href="https://github.com/microsoft/PyRIT/issues/2745">#2745</a>)<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> — Dataset catalog for the PyRIT GUI: search, filters, sorting, detail view (closes <a href="https://github.com/microsoft/PyRIT/issues/2747">#2747</a>)<br>
       <sub>AI red teaming · TypeScript · React · accessibility</sub>
     </td>
   </tr>
@@ -102,6 +96,8 @@ I build security tooling and contribute upstream to open-source Python and TypeS
   </tr>
 </table>
 
+<p><strong>Currently focused on:</strong> OSINT tooling · AI/agent security · Python security infrastructure (privacy controls, traffic inspection, SBOM tooling)</p>
+
 ### Selected projects
 
 | Project | What it is |
@@ -117,7 +113,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <summary><strong>54 merged PRs across 17 upstream repositories · full list</strong></summary>
 <br>
 
-As of October 14, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
+As of October 17, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
