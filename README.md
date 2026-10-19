@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://juliosuas.pages.dev"><img src="./assets/profile-banner.svg" width="100%" alt="Julio Suástegui. Security / OSINT Engineer, Mexico City"></a>
+  <a href="https://juliosuas.pages.dev"><img src="./assets/linkedin-banner.png" width="100%" alt="Julio Suástegui. Open Source Security Engineer: AI red teaming, PyRIT contributor, CEH"></a>
 </p>
 
 <p align="center">
