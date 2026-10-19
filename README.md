@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Julio Suastegui — OSINT and security tooling">
+  <a href="https://juliosuas.pages.dev"><img src="./assets/profile-banner.svg" width="100%" alt="Julio Suástegui. Security / OSINT Engineer, Mexico City"></a>
 </p>
 
 <p align="center">
+  <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-63ff86?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="54 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-54_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
@@ -253,9 +254,5 @@ Selected from 43 open upstream PRs as of October 14, 2026.
 </p>
 
 <p align="center">
-  <img src="./assets/contribution-grid.png" width="100%" alt="GitHub contribution calendar">
-</p>
-
-<p align="center">
-  <a href="https://github.com/juliosuas/ghost">ghost</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/juliosuas?tab=repositories">repositories</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">merged PRs</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">all pull requests</a>
+  <a href="https://juliosuas.pages.dev">portfolio</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/juliosuas/ghost">ghost</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/juliosuas?tab=repositories">repositories</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">merged PRs</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas">all pull requests</a>
 </p>
