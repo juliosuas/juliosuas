@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-63ff86?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="60 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-60_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="61 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-61_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
@@ -19,7 +19,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### Selected upstream work
 
 <p>
-  <strong>60</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 29, 2026</sub>
+  <strong>61</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 29, 2026</sub>
 </p>
 
 <table>
@@ -39,8 +39,8 @@ I build security tooling and contribute upstream to open-source Python and TypeS
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/soxoj/maigret"><img src="https://github.com/soxoj.png?size=112" width="56" height="56" loading="lazy" alt="Maigret logo"></a></td>
-    <td><strong>Maigret</strong> · 16 merged PRs<br>
-      <a href="https://github.com/soxoj/maigret/pull/3175"><code>#3175</code></a> · <a href="https://github.com/soxoj/maigret/pull/3100"><code>#3100</code></a> · <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> — Added a shared Mastodon lookup engine, fixed or disabled false-positive site checks (Xing, Pychess, Southklad, and more), added the manifest modern XMind readers need, and improved status-code detection in site submission.<br>
+    <td><strong>Maigret</strong> · 17 merged PRs<br>
+      <a href="https://github.com/soxoj/maigret/pull/3304"><code>#3304</code></a> · <a href="https://github.com/soxoj/maigret/pull/3175"><code>#3175</code></a> · <a href="https://github.com/soxoj/maigret/pull/3100"><code>#3100</code></a> · <a href="https://github.com/soxoj/maigret/pull/3121"><code>#3121</code></a> · <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> · <a href="https://github.com/soxoj/maigret/pull/3024"><code>#3024</code></a> · <a href="https://github.com/soxoj/maigret/pull/2930"><code>#2930</code></a> — Added a shared Mastodon lookup engine, fixed or disabled false-positive site checks (Xing, Pychess, Southklad, and more), added the manifest modern XMind readers need, and improved status-code detection in site submission.<br>
       <sub>Python · OSINT · HTTP evidence · report compatibility</sub>
     </td>
   </tr>
@@ -123,7 +123,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### All merged PRs
 
 <details>
-<summary><strong>60 merged PRs across 18 upstream repositories · full list</strong></summary>
+<summary><strong>61 merged PRs across 18 upstream repositories · full list</strong></summary>
 <br>
 
 As of October 29, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
@@ -131,7 +131,7 @@ As of October 29, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
   <tr>
-    <td><a href="https://github.com/soxoj/maigret"><strong>soxoj/maigret</strong></a><br><sub>16 merged</sub></td>
+    <td><a href="https://github.com/soxoj/maigret"><strong>soxoj/maigret</strong></a><br><sub>17 merged</sub></td>
     <td><a href="https://github.com/soxoj/maigret/pull/2318"><code>#2318</code></a> feat: add cybersecurity platforms + re-enable Root-Me<br>
       <a href="https://github.com/soxoj/maigret/pull/2442"><code>#2442</code></a> fix(data): update InterPals absence string to match current site response<br>
       <a href="https://github.com/soxoj/maigret/pull/2558"><code>#2558</code></a> test: loosen executor timing upper bounds for slower CI<br>
@@ -147,7 +147,8 @@ As of October 29, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
       <a href="https://github.com/soxoj/maigret/pull/3131"><code>#3131</code></a> Disable WikimapiaSearch false-positive site<br>
       <a href="https://github.com/soxoj/maigret/pull/3133"><code>#3133</code></a> Disable Comedy false-positive site<br>
       <a href="https://github.com/soxoj/maigret/pull/3135"><code>#3135</code></a> Disable Southklad false-positive site<br>
-      <a href="https://github.com/soxoj/maigret/pull/3175"><code>#3175</code></a> Fix Xing false-positive check</td>
+      <a href="https://github.com/soxoj/maigret/pull/3175"><code>#3175</code></a> Fix Xing false-positive check<br>
+      <a href="https://github.com/soxoj/maigret/pull/3304"><code>#3304</code></a> Fix officiating false positive after forum migration</td>
   </tr>
   <tr>
     <td><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><strong>mukul975/Anthropic-Cybersecurity-Skills</strong></a><br><sub>8 merged</sub></td>
