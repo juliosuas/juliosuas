@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-63ff86?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="58 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-58_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="59 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-59_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
 </p>
@@ -19,13 +19,14 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### Selected upstream work
 
 <p>
-  <strong>58</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 26, 2026</sub>
+  <strong>59</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>16</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of October 28, 2026</sub>
 </p>
 
 <table>
   <tr>
     <td width="72" align="center"><a href="https://github.com/microsoft/PyRIT"><img src="https://github.com/microsoft.png?size=112" width="56" height="56" loading="lazy" alt="Microsoft logo"></a></td>
-    <td><strong>Microsoft · PyRIT</strong> · 7 merged PRs<br>
+    <td><strong>Microsoft · PyRIT</strong> · 8 merged PRs<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/3601"><code>#3601</code></a> — <code>CodeAttackConverter</code> encoding dispatch made exhaustive for type checkers (part of <a href="https://github.com/microsoft/PyRIT/issues/3166">#3166</a>)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3529"><code>#3529</code></a> — <code>HarmDefinition.from_yaml</code> returns <code>Self</code> for subclasses (part of <a href="https://github.com/microsoft/PyRIT/issues/3166">#3166</a>)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3470"><code>#3470</code></a> — <code>TagQuery</code> factory classmethods return <code>Self</code> for subclasses (part of <a href="https://github.com/microsoft/PyRIT/issues/3166">#3166</a>)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3369"><code>#3369</code></a> — Score, objective, and export logic moved out of the chat window into hooks (part of <a href="https://github.com/microsoft/PyRIT/issues/2652">#2652</a>)<br>
@@ -115,10 +116,10 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 ### All merged PRs
 
 <details>
-<summary><strong>58 merged PRs across 17 upstream repositories · full list</strong></summary>
+<summary><strong>59 merged PRs across 17 upstream repositories · full list</strong></summary>
 <br>
 
-As of October 26, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
+As of October 28, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
 
 <table>
   <tr><th align="left">Upstream</th><th align="left">Merged contributions</th></tr>
@@ -153,8 +154,8 @@ As of October 26, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
       <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/29"><code>#29</code></a> Add skill: detecting-lateral-movement-with-zeek (fixes #5)</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>7 merged</sub></td>
-    <td><a href="https://github.com/microsoft/PyRIT/pull/3529"><code>#3529</code></a> MAINT Return Self from HarmDefinition.from_yaml (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3470"><code>#3470</code></a> MAINT Return Self from TagQuery factory classmethods (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3369"><code>#3369</code></a> MAINT Extract score, objective and export from ChatWindow into hooks<br><a href="https://github.com/microsoft/PyRIT/pull/3310"><code>#3310</code></a> MAINT Extract conversation loading from ChatWindow into useConversationMessages<br><a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> FEAT: Share image, audio, and video previews with dataset details<br><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
+    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>8 merged</sub></td>
+    <td><a href="https://github.com/microsoft/PyRIT/pull/3601"><code>#3601</code></a> MAINT Make CodeAttackConverter encoding dispatch exhaustive (P311-03)<br><a href="https://github.com/microsoft/PyRIT/pull/3529"><code>#3529</code></a> MAINT Return Self from HarmDefinition.from_yaml (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3470"><code>#3470</code></a> MAINT Return Self from TagQuery factory classmethods (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3369"><code>#3369</code></a> MAINT Extract score, objective and export from ChatWindow into hooks<br><a href="https://github.com/microsoft/PyRIT/pull/3310"><code>#3310</code></a> MAINT Extract conversation loading from ChatWindow into useConversationMessages<br><a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> FEAT: Share image, audio, and video previews with dataset details<br><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
   </tr>
   <tr>
     <td><a href="https://github.com/mitmproxy/mitmproxy"><strong>mitmproxy/mitmproxy</strong></a><br><sub>4 merged</sub></td>
