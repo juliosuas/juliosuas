@@ -1,7 +1,8 @@
 <p align="center"><a href="https://juliosuas.pages.dev"><img src="./assets/menubar.svg" width="100%" alt="Menu bar: File Edit View Special"></a></p>
 
 <p align="center">
-  <a href="https://juliosuas.pages.dev"><img src="./assets/linkedin-banner.png" width="100%" alt="Julio Suástegui. Open Source Security Engineer: AI red teaming, PyRIT contributor, CEH"></a>
+  <a href="https://juliosuas.pages.dev"><img src="./assets/banner-terminal.svg" width="100%" alt="Terminal: whoami prints Open Source Security Engineer, AI Red Teaming, PyRIT contributor, CEH; maigret juliosuas finds GitHub and portfolio"></a>
+  <img src="./assets/mascot-cat.svg" width="100%" alt="Pixel cat walking">
 </p>
 
 <p align="center">
