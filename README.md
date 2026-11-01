@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-63ff86?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=63ff86&amp;labelColor=071009"></a>
-  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-63ff86?style=for-the-badge&amp;logo=github&amp;labelColor=071009"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="62 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-62_MERGED-63ff86?style=for-the-badge&amp;logo=git&amp;logoColor=63ff86&amp;labelColor=071009"></a>
-  <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=071009&amp;color=63ff86"></a>
-  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=071009&amp;color=63ff86"></a>
+  <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-115e59?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
+  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-115e59?style=for-the-badge&amp;logo=github&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="62 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-62_MERGED-115e59?style=for-the-badge&amp;logo=git&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
+  <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=0b1220&amp;color=115e59"></a>
+  <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=0b1220&amp;color=115e59"></a>
 </p>
 
 <img src="./assets/win-about.svg" width="100%" alt="About This Dev window">
@@ -21,21 +21,6 @@
 I build security tooling and contribute upstream to open-source Python and TypeScript projects.
 
 <p align="center"><img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, 62 merged PRs, stack"></p>
-
-<img src="./assets/win-fullstack.svg" width="100%" alt="Full-Stack.app window">
-
-<details open>
-<summary><strong>Full-stack work · double-click to open</strong></summary>
-<br>
-
-<table>
-<tr><th>Case</th><th>Problem</th><th>What I did</th><th>Result</th></tr>
-<tr><td><a href="https://github.com/microsoft/PyRIT/pull/3071">PyRIT #3071</a></td><td>No visual way to browse PyRIT datasets</td><td>Dataset catalog GUI, frontend and backend, about 2,300 lines across 25 files</td><td>Merged by Microsoft</td></tr>
-<tr><td><a href="https://github.com/microsoft/PyRIT/issues/2745">PyRIT #2745</a></td><td>Pagination and refresh raced in the examples table</td><td>Server-side pagination fix with tests against a real backend and seeded data (<a href="https://github.com/microsoft/PyRIT/pull/3163">#3163</a>)</td><td>Merged, issue closed</td></tr>
-<tr><td>Aivumo</td><td>Agency site and service catalog</td><td>React, TypeScript, Vite, shadcn/ui, Supabase, Cloudflare Pages, CI with lint, typecheck, build and artifact checks</td><td>CI green on every PR</td></tr>
-</table>
-
-</details>
 
 <img src="./assets/win-upstream.svg" width="100%" alt="Selected upstream work window">
 
@@ -299,77 +284,18 @@ Selected from 43 open upstream PRs as of October 14, 2026.
 <img src="./assets/win-tools.svg" width="100%" alt="Languages and tools window">
 
 <details open>
-<summary><strong>Languages and tools</strong> · double-click a window</summary>
+<summary><strong>Languages and tools</strong></summary>
 <br>
-
-<a href="https://github.com/microsoft/PyRIT/pull/3071">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/tech-frontend-mobile.svg">
-    <img src="./assets/tech-frontend.svg" width="100%" alt="Frontend: React and TypeScript, PyRIT dataset catalog GUI #3071">
-  </picture>
-</a>
-
-<details>
-<summary><strong>Frontend: React, TypeScript</strong> · evidence</summary>
-<br>
-
-<a href="https://github.com/microsoft/PyRIT/pull/3071"><img alt="PyRIT #3071" src="https://img.shields.io/badge/PyRIT_%233071-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/microsoft/PyRIT/pull/3163"><img alt="PyRIT #3163" src="https://img.shields.io/badge/PyRIT_%233163-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/microsoft/PyRIT/pull/3251"><img alt="PyRIT #3251" src="https://img.shields.io/badge/PyRIT_%233251-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/microsoft/PyRIT/pull/3310"><img alt="PyRIT #3310" src="https://img.shields.io/badge/PyRIT_%233310-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/microsoft/PyRIT/pull/3369"><img alt="PyRIT #3369" src="https://img.shields.io/badge/PyRIT_%233369-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/palantir/blueprint/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="Blueprint PR" src="https://img.shields.io/badge/Blueprint_PR-0b1710?style=flat-square&amp;logoColor=63ff86"></a>
-
-</details>
-<a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/tech-backend-mobile.svg">
-    <img src="./assets/tech-backend.svg" width="100%" alt="Backend: Python, 17 merged Maigret PRs">
-  </picture>
-</a>
-
-<details>
-<summary><strong>Backend: Python, HTTP, APIs</strong> · evidence</summary>
-<br>
-
-<a href="https://github.com/soxoj/maigret/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="Maigret 17 merged" src="https://img.shields.io/badge/Maigret_17_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/getsentry/sentry-python/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="sentry-python 2 merged" src="https://img.shields.io/badge/sentry--python_2_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/getsentry/responses/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="responses 3 merged" src="https://img.shields.io/badge/responses_3_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/kellyjonbrazil/jc/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="jc 4 merged" src="https://img.shields.io/badge/jc_4_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/locustio/locust/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="locust 2 merged" src="https://img.shields.io/badge/locust_2_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a>
-
-</details>
-<a href="https://juliosuas.pages.dev">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/tech-cloud-mobile.svg">
-    <img src="./assets/tech-cloud.svg" width="100%" alt="Cloud: Cloudflare Pages, Supabase, GitHub Actions CI">
-  </picture>
-</a>
-
-<details>
-<summary><strong>Cloud and CI: Cloudflare, Supabase, GitHub Actions</strong> · evidence</summary>
-<br>
-
-<a href="https://juliosuas.pages.dev"><img alt="Portfolio on Cloudflare Pages" src="https://img.shields.io/badge/Portfolio_on_Cloudflare_Pages-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/juliosuas/ghost"><img alt="ghost" src="https://img.shields.io/badge/ghost-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/juliosuas/ai-garden"><img alt="ai-garden" src="https://img.shields.io/badge/ai--garden-0b1710?style=flat-square&amp;logoColor=63ff86"></a>
-
-Aivumo (private): React, TypeScript, Vite, shadcn/ui, Supabase, Cloudflare Pages. CI runs lint, typecheck, build and artifact checks on every PR.
-
-</details>
-<a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">
-  <picture>
-    <source media="(max-width: 640px)" srcset="./assets/tech-security-mobile.svg">
-    <img src="./assets/tech-security.svg" width="100%" alt="Security: 62 merged upstream PRs across 18 repos">
-  </picture>
-</a>
-
-<details>
-<summary><strong>Security and supply chain</strong> · evidence</summary>
-<br>
-
-<a href="https://github.com/aquasecurity/trivy/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="trivy 2 merged" src="https://img.shields.io/badge/trivy_2_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/OWASP/Agent-Security-Regression-Harness/pull/149"><img alt="OWASP harness" src="https://img.shields.io/badge/OWASP_harness-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/CycloneDX/cyclonedx-python/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="CycloneDX" src="https://img.shields.io/badge/CycloneDX-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/mitmproxy/mitmproxy/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="mitmproxy 4 merged" src="https://img.shields.io/badge/mitmproxy_4_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a> <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged"><img alt="Anthropic Cybersecurity Skills 8 merged" src="https://img.shields.io/badge/Anthropic_Cybersecurity_Skills_8_merged-0b1710?style=flat-square&amp;logoColor=63ff86"></a>
-
-</details>
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-0b1710?style=flat-square&amp;logo=python&amp;logoColor=63ff86">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0b1710?style=flat-square&amp;logo=typescript&amp;logoColor=63ff86">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0b1710?style=flat-square&amp;logo=javascript&amp;logoColor=63ff86">
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-0b1710?style=flat-square&amp;logo=rust&amp;logoColor=63ff86">
-  <img alt="React" src="https://img.shields.io/badge/React_/_Next.js-0b1710?style=flat-square&amp;logo=react&amp;logoColor=63ff86">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0b1710?style=flat-square&amp;logo=postgresql&amp;logoColor=63ff86">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-0b1710?style=flat-square&amp;logo=docker&amp;logoColor=63ff86">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-0b1710?style=flat-square&amp;logo=githubactions&amp;logoColor=63ff86">
+  <img alt="Python" src="https://img.shields.io/badge/Python-0f1b2d?style=flat-square&amp;logo=python&amp;logoColor=5eead4">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0f1b2d?style=flat-square&amp;logo=typescript&amp;logoColor=5eead4">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0f1b2d?style=flat-square&amp;logo=javascript&amp;logoColor=5eead4">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-0f1b2d?style=flat-square&amp;logo=rust&amp;logoColor=5eead4">
+  <img alt="React" src="https://img.shields.io/badge/React_/_Next.js-0f1b2d?style=flat-square&amp;logo=react&amp;logoColor=5eead4">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0f1b2d?style=flat-square&amp;logo=postgresql&amp;logoColor=5eead4">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-0f1b2d?style=flat-square&amp;logo=docker&amp;logoColor=5eead4">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-0f1b2d?style=flat-square&amp;logo=githubactions&amp;logoColor=5eead4">
 </p>
 
 <p align="center">
