@@ -271,7 +271,7 @@ As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
 <summary><strong>Open PRs</strong></summary>
 <br>
 
-Selected from 43 open upstream PRs as of October 14, 2026.
+Selected from 23 open upstream PRs as of November 3, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
