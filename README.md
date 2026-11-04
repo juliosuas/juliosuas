@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-115e59?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-115e59?style=for-the-badge&amp;logo=github&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="64 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-64_MERGED-115e59?style=for-the-badge&amp;logo=git&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="65 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-65_MERGED-115e59?style=for-the-badge&amp;logo=git&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=0b1220&amp;color=115e59"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=0b1220&amp;color=115e59"></a>
 </p>
@@ -21,7 +21,7 @@
 
 I build security tooling and contribute upstream to open-source Python and TypeScript projects.
 
-<p align="center"><img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, 64 merged PRs, stack"></p>
+<p align="center"><img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, 65 merged PRs, stack"></p>
 
 <img src="./assets/win-upstream.svg" width="100%" alt="Selected upstream work window">
 
@@ -30,7 +30,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <br>
 
 <p>
-  <strong>64</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<strong>11</strong> in PyRIT&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of November 3, 2026</sub>
+  <strong>65</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<strong>11</strong> in PyRIT&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of November 4, 2026</sub>
 </p>
 
 <table>
@@ -116,8 +116,9 @@ I build security tooling and contribute upstream to open-source Python and TypeS
   </tr>
   <tr>
     <td width="72" align="center"><a href="https://github.com/CycloneDX/cyclonedx-python"><img src="https://github.com/CycloneDX.png?size=112" width="56" height="56" loading="lazy" alt="CycloneDX logo"></a></td>
-    <td><strong>CycloneDX · cyclonedx-python</strong> · 1 merged PR<br>
+    <td><strong>CycloneDX · cyclonedx-python</strong> · 2 merged PRs<br>
       <a href="https://github.com/CycloneDX/cyclonedx-python/pull/1106"><code>#1106</code></a> · Added option <code>-E</code> so environment SBOMs ignore parent <code>PYTHON*</code> env vars. Released in v7.6.0.<br>
+      <a href="https://github.com/CycloneDX/cyclonedx-python/pull/1134"><code>#1134</code></a> · Follow-up to #1106: with <code>-E</code>/<code>-S</code> and no <code>&lt;python&gt;</code>, probe the current interpreter. Co-authored with Elton Chang.<br>
       <sub>Python · SBOM tooling · supply-chain security</sub>
     </td>
   </tr>
@@ -145,7 +146,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <img src="./assets/win-allprs.svg" width="100%" alt="All merged PRs window">
 
 <details>
-<summary><strong>64 merged PRs across 18 upstream repositories · full list</strong></summary>
+<summary><strong>65 merged PRs across 18 upstream repositories · full list</strong></summary>
 <br>
 
 As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
@@ -253,8 +254,8 @@ As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
     <td><a href="https://github.com/racecraft-lab/Paddock/pull/86"><code>#86</code></a> Enhance Office activity visuals</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/CycloneDX/cyclonedx-python"><strong>CycloneDX/cyclonedx-python</strong></a><br><sub>1 merged</sub></td>
-    <td><a href="https://github.com/CycloneDX/cyclonedx-python/pull/1106"><code>#1106</code></a> feat(environment): add option -E to ignore parent PYTHON* env vars</td>
+    <td><a href="https://github.com/CycloneDX/cyclonedx-python"><strong>CycloneDX/cyclonedx-python</strong></a><br><sub>2 merged</sub></td>
+    <td><a href="https://github.com/CycloneDX/cyclonedx-python/pull/1106"><code>#1106</code></a> feat(environment): add option -E to ignore parent PYTHON* env vars<br><a href="https://github.com/CycloneDX/cyclonedx-python/pull/1134"><code>#1134</code></a> feat(environment)!: with -E/-S and no &lt;python&gt;, probe the current interpreter</td>
   </tr>
   <tr>
     <td><a href="https://github.com/nicolargo/glances"><strong>nicolargo/glances</strong></a><br><sub>1 merged</sub></td>
@@ -271,12 +272,11 @@ As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
 <summary><strong>Open PRs</strong></summary>
 <br>
 
-Selected from 23 open upstream PRs as of November 3, 2026.
+Selected from 22 open upstream PRs as of November 4, 2026.
 
 | Project | Proposed change | Status |
 | --- | --- | --- |
 | [PyRIT #3812](https://github.com/microsoft/PyRIT/pull/3812) | Extract copy and branch workflows from the chat window into `useConversationCopy` (part of #2652). | In review |
-| [CycloneDX · cyclonedx-python #1134](https://github.com/CycloneDX/cyclonedx-python/pull/1134) | With `-E`/`-S` and no `<python>`, probe the current interpreter. | In review |
 | [Nous Research · Hermes Agent #121776](https://github.com/NousResearch/hermes-agent/pull/121776) | Make browser close-profile wait for exit and clear a stale `SingletonLock`. | In review |
 | [Nmap #3458](https://github.com/nmap/nmap/pull/3458) | Clarify the IPv6 protocol-family context in packet-trace output. | In review |
 | [PyPA · Hatch #2405](https://github.com/pypa/hatch/pull/2405) | Support free-threaded Python aliases such as `3.13t` and `3.14t`. | In review |
