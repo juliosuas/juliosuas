@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://juliosuas.pages.dev"><img alt="Portfolio: juliosuas.pages.dev" src="https://img.shields.io/badge/PORTFOLIO-juliosuas.pages.dev-115e59?style=for-the-badge&amp;logo=cloudflarepages&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-115e59?style=for-the-badge&amp;logo=github&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="66 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-66_MERGED-115e59?style=for-the-badge&amp;logo=git&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas"><img alt="67 merged upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-67_MERGED-115e59?style=for-the-badge&amp;logo=git&amp;logoColor=5eead4&amp;labelColor=0b1220"></a>
   <a href="https://github.com/juliosuas?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/juliosuas?style=for-the-badge&amp;logo=github&amp;label=FOLLOWERS&amp;labelColor=0b1220&amp;color=115e59"></a>
   <a href="https://github.com/juliosuas?tab=repositories"><img alt="Repository stars" src="https://img.shields.io/github/stars/juliosuas?affiliations=OWNER&amp;style=for-the-badge&amp;logo=github&amp;label=STARS&amp;labelColor=0b1220&amp;color=115e59"></a>
 </p>
@@ -21,7 +21,7 @@
 
 I build security tooling and contribute upstream to open-source Python and TypeScript projects.
 
-<p align="center"><img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, 66 merged PRs, stack"></p>
+<p align="center"><img src="./assets/terminal.svg" width="100%" alt="Terminal: whoami, 67 merged PRs, stack"></p>
 
 <img src="./assets/win-upstream.svg" width="100%" alt="Selected upstream work window">
 
@@ -30,13 +30,14 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <br>
 
 <p>
-  <strong>66</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<strong>12</strong> in PyRIT&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of November 9, 2026</sub>
+  <strong>67</strong> merged PRs&nbsp;&nbsp;·&nbsp;&nbsp;<strong>18</strong> upstream repositories&nbsp;&nbsp;·&nbsp;&nbsp;<strong>17</strong> in Maigret&nbsp;&nbsp;·&nbsp;&nbsp;<strong>13</strong> in PyRIT&nbsp;&nbsp;·&nbsp;&nbsp;<sub>as of November 14, 2026</sub>
 </p>
 
 <table>
   <tr>
     <td width="72" align="center"><a href="https://github.com/microsoft/PyRIT"><img src="https://github.com/microsoft.png?size=112" width="56" height="56" loading="lazy" alt="Microsoft logo"></a></td>
-    <td><strong>Microsoft · PyRIT</strong> · 12 merged PRs<br>
+    <td><strong>Microsoft · PyRIT</strong> · 13 merged PRs<br>
+      <a href="https://github.com/microsoft/PyRIT/pull/4162"><code>#4162</code></a> · Send workflow moved out of the chat window into a reducer (part of <a href="https://github.com/microsoft/PyRIT/issues/2652">#2652</a>)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3812"><code>#3812</code></a> · Copy and branch workflows moved out of the chat window into <code>useConversationCopy</code> (part of <a href="https://github.com/microsoft/PyRIT/issues/2652">#2652</a>)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3850"><code>#3850</code></a> · <code>ConversationRetryReason</code> migrated to <code>StrEnum</code> (P311-17)<br>
       <a href="https://github.com/microsoft/PyRIT/pull/3779"><code>#3779</code></a> · MAINT Return Self from AdversarialPrompts.from_metadata (P311-01) (part of <a href="https://github.com/microsoft/PyRIT/issues/3166">#3166</a>)<br>
@@ -147,7 +148,7 @@ I build security tooling and contribute upstream to open-source Python and TypeS
 <img src="./assets/win-allprs.svg" width="100%" alt="All merged PRs window">
 
 <details>
-<summary><strong>66 merged PRs across 18 upstream repositories · full list</strong></summary>
+<summary><strong>67 merged PRs across 18 upstream repositories · full list</strong></summary>
 <br>
 
 As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajuliosuas+is%3Amerged+-user%3Ajuliosuas">See the current list on GitHub.</a>
@@ -186,8 +187,8 @@ As of November 3, 2026. <a href="https://github.com/pulls?q=is%3Apr+author%3Ajul
       <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills/pull/29"><code>#29</code></a> Add skill: detecting-lateral-movement-with-zeek (fixes #5)</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>12 merged</sub></td>
-    <td><a href="https://github.com/microsoft/PyRIT/pull/3812"><code>#3812</code></a> MAINT Extract copy and branch workflows from ChatWindow into useConversationCopy<br><a href="https://github.com/microsoft/PyRIT/pull/3850"><code>#3850</code></a> MAINT Migrate ConversationRetryReason to StrEnum (P311-17)<br><a href="https://github.com/microsoft/PyRIT/pull/3779"><code>#3779</code></a> MAINT Return Self from AdversarialPrompts.from_metadata (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3626"><code>#3626</code></a> MAINT Return Self from WebSearchConfig.from_metadata (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3601"><code>#3601</code></a> MAINT Make CodeAttackConverter encoding dispatch exhaustive (P311-03)<br><a href="https://github.com/microsoft/PyRIT/pull/3529"><code>#3529</code></a> MAINT Return Self from HarmDefinition.from_yaml (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3470"><code>#3470</code></a> MAINT Return Self from TagQuery factory classmethods (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3369"><code>#3369</code></a> MAINT Extract score, objective and export from ChatWindow into hooks<br><a href="https://github.com/microsoft/PyRIT/pull/3310"><code>#3310</code></a> MAINT Extract conversation loading from ChatWindow into useConversationMessages<br><a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> FEAT: Share image, audio, and video previews with dataset details<br><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
+    <td><a href="https://github.com/microsoft/PyRIT"><strong>microsoft/PyRIT</strong></a><br><sub>13 merged</sub></td>
+    <td><a href="https://github.com/microsoft/PyRIT/pull/4162"><code>#4162</code></a> MAINT Extract ChatWindow send workflow into a reducer<br><a href="https://github.com/microsoft/PyRIT/pull/3812"><code>#3812</code></a> MAINT Extract copy and branch workflows from ChatWindow into useConversationCopy<br><a href="https://github.com/microsoft/PyRIT/pull/3850"><code>#3850</code></a> MAINT Migrate ConversationRetryReason to StrEnum (P311-17)<br><a href="https://github.com/microsoft/PyRIT/pull/3779"><code>#3779</code></a> MAINT Return Self from AdversarialPrompts.from_metadata (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3626"><code>#3626</code></a> MAINT Return Self from WebSearchConfig.from_metadata (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3601"><code>#3601</code></a> MAINT Make CodeAttackConverter encoding dispatch exhaustive (P311-03)<br><a href="https://github.com/microsoft/PyRIT/pull/3529"><code>#3529</code></a> MAINT Return Self from HarmDefinition.from_yaml (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3470"><code>#3470</code></a> MAINT Return Self from TagQuery factory classmethods (P311-01)<br><a href="https://github.com/microsoft/PyRIT/pull/3369"><code>#3369</code></a> MAINT Extract score, objective and export from ChatWindow into hooks<br><a href="https://github.com/microsoft/PyRIT/pull/3310"><code>#3310</code></a> MAINT Extract conversation loading from ChatWindow into useConversationMessages<br><a href="https://github.com/microsoft/PyRIT/pull/3251"><code>#3251</code></a> FEAT: Share image, audio, and video previews with dataset details<br><a href="https://github.com/microsoft/PyRIT/pull/3163"><code>#3163</code></a> FEAT: Add dataset example table and seed detail view<br><a href="https://github.com/microsoft/PyRIT/pull/3071"><code>#3071</code></a> FEAT: Add dataset catalog navigation and cards</td>
   </tr>
   <tr>
     <td><a href="https://github.com/mitmproxy/mitmproxy"><strong>mitmproxy/mitmproxy</strong></a><br><sub>4 merged</sub></td>
